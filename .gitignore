@@ -12,3 +12,6 @@ org/private/
 /.ninja_log
 /build.ninja
 /org/daily/
+*.md~
+*.org~
+*.toml~
