@@ -1,19 +1,17 @@
 +++
 title = "Index"
-author = ["Jethro Kuan"]
-lastmod = 2020-05-29T21:44:03+08:00
+author = ["Jason Tian"]
+lastmod = 2021-04-25T23:40:42+08:00
 type = "index"
 draft = false
 +++
 
-# Hi! {#hi}
+# Hey there! {#hi}
 
-I'm [Jethro](https://www.jethro.dev/), and you've chanced upon my braindump.
-This website contains my working notes accumulated over some years. They're in a
-really messy transition state: most of them are literature notes, and there are
-close to no conceptual notes, which I intend to start taking soon.
+This is [Jason](https://jsntn.com/), an Emacs user stays a lot on
+[haikebang.org](https://haikebang.org) recently.
 
-I also haven't made good entry-points to my brain yet, but you can start hopping
-around by going to the [full index](/posts/).
+You've chanced upon my braindump, it contains my notes accumulated over years,
+and they're in a really messy transition state.
 
-Have fun!
+I can't make good entry-points, only a full index can be found [here](/posts/).

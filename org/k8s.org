@@ -1,0 +1,17 @@
+#+HUGO_BASE_DIR: ../
+#+TITLE: Kubernetes
+#+DATE: 2021-04-26
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_TAGS: 
+#+HUGO_CATEGORIES: 
+#+HUGO_DRAFT: false
+
+* Online Tutorials
+https://kubernetes.io/docs/tutorials/kubernetes-basics/
+https://kubernetes.io/zh/docs/tutorials/kubernetes-basics/
+* CONCEPT
+** Cluster
+** Master
+** Node
+** Pod
+** Controller
