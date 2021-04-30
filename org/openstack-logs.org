@@ -1,0 +1,22 @@
+#+HUGO_BASE_DIR: ../
+#+TITLE: OpenStack Logs
+#+DATE: 2021-05-01
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_TAGS: 
+#+HUGO_CATEGORIES: 
+#+HUGO_DRAFT: false
+
+* Keystone Logs
+#+BEGIN_SRC sh
+/var/log/apache2/keystone.log
+/var/log/apache2/keystone_access.log
+#+END_SRC
+If you would like to check more detailed logs, go enable the =debug= option in
+=/etc/keystone/keystone.conf=.
+* Glance Logs
+#+BEGIN_SRC sh
+/var/log/apache2/glanceapi.log
+/var/log/apache2/glanceregistry.log
+#+END_SRC
+If you would like to check more detailed logs, go enable the =debug= option in
+=/etc/glance/*.conf=.
