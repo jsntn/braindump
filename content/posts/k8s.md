@@ -1,7 +1,7 @@
 +++
 title = "Kubernetes"
-date = 2021-04-26
-lastmod = 2021-04-27T00:24:52+08:00
+date = 2021-04-26T16:54:00+08:00
+lastmod = 2021-05-03T16:54:57+08:00
 draft = false
 +++
 
