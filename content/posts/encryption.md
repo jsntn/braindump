@@ -1,41 +1,38 @@
 +++
 title = "Encryption"
 date = 2021-05-03T17:24:00+08:00
-lastmod = 2021-05-03T17:31:53+08:00
+lastmod = 2021-05-06T01:59:30+08:00
 draft = false
 +++
 
-## PC/Mac {#pc-mac}
+Encryption is the method by which information is converted into secret code that
+hides the information's true meaning. The science of encrypting and decrypting
+information is called cryptography. In computing, unencrypted data is also known
+as plaintext, and encrypted data is called ciphertext.
 
 
-### Cryptomator {#cryptomator}
+## Cryptomator {#cryptomator}
+
+<https://cn.apkjam.com/cryptomator.html><br />
+<https://jsntn.com/software/portable-cryptomator.html>
 
 
-### TrueCrypt {#truecrypt}
+## Password {#password}
+
+KeePass <https://haikebang.com/passphrase.html>
 
 
-### VeraCrypt {#veracrypt}
+## Saferoom {#saferoom}
+
+<https://cn.apkjam.com/60s/saferoom.html>
 
 
-## Android {#android}
+## TrueCrypt/VeraCrypt/EDS/CryptoDisk {#truecrypt-veracrypt-eds-cryptodisk}
+
+TrueCrypt is not secure <https://jsntn.com/software/2014/06/01/truecrypt.html><br />
+EDS <https://cn.apkjam.com/eds.html>
 
 
-### Cryptomator {#cryptomator}
+## Read More {#read-more}
 
-
-### EDS {#eds}
-
-
-### Saferoom {#saferoom}
-
-
-## iOS {#ios}
-
-
-### CryptoDisk {#cryptodisk}
-
-
-### Cryptomator {#cryptomator}
-
-
-### Saferoom {#saferoom}
+<https://haikebang.com/secure-portable.html>

@@ -1,0 +1,15 @@
+#+HUGO_BASE_DIR: ../
+#+TITLE: EDC
+#+DATE: <2021-05-06 Thu 01:23>
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_TAGS: 
+#+HUGO_CATEGORIES: 
+#+HUGO_DRAFT: false
+
+EDC
+
+#+begin_quote
+Everyday Carry
+#+end_quote
+
+⊕ Read: https://www.zhihu.com/question/19808099
