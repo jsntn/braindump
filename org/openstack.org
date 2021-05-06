@@ -6,5 +6,15 @@
 #+HUGO_CATEGORIES: 
 #+HUGO_DRAFT: false
 
+* FAQ
+** TODO How to make image?
+** TODO What is Cloud Image?
 * Troubleshooting
 The main troubleshooting method about OpenStack is checking through the [[file:openstack-logs.org][logs]].
+* Network
+** What is physical network in OpenStack?
+The OpenStack Networking services can either run together on the same physical
+server, or on separate dedicated servers, which are named according to their
+roles: Controller node - The server that runs API service. Network node - The
+server that runs the OpenStack Networking agents.
+** L2GW
