@@ -9,6 +9,8 @@
 * FAQ
 ** TODO How to make image?
 ** TODO What is Cloud Image?
+** Boot an instance from an ISO image
+https://docs.openstack.org/ocata/user-guide/cli-nova-launch-instance-using-ISO-image.html
 * Troubleshooting
 The main troubleshooting method about OpenStack is checking through the [[file:openstack-logs.org][logs]].
 * Network
