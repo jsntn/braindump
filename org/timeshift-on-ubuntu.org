@@ -1,0 +1,28 @@
+#+HUGO_BASE_DIR: ../
+#+TITLE: Timeshift on Ubuntu
+#+DATE: <2021-05-08 Sat 23:55>
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_TAGS: 
+#+HUGO_CATEGORIES: 
+#+HUGO_DRAFT: false
+* Installation
+
+#+BEGIN_SRC sh
+  sudo add-apt-repository -y ppa:teejee2008/timeshift
+  sudo apt-get update
+  sudo apt-get install timeshift
+#+END_SRC
+
+via [[https://github.com/teejee2008/timeshift][link]]
+* Operations
+
+#+BEGIN_SRC sh
+  sudo timeshift --create
+  sudo timeshift --list
+  sudo timeshift --restore --snapshot "2020-02-19_18-32-36"
+  sudo timeshift --delete  --snapshot '2014-10-12_16-29-08'
+#+END_SRC
+
+via [[https://web.archive.org/web/20210508154916/https://goto-linux.com/zh-cn/2019/7/29/ubuntu-20.04系统备份和还原/][link]]
+* Read More
+- [[https://web.archive.org/web/20210508155818/https://www.cnblogs.com/linuxprobe/p/5399144.html][Restore the snapshot on Linux]]

@@ -1,0 +1,8 @@
+#+HUGO_BASE_DIR: ../
+#+TITLE: Linux
+#+DATE: <2021-05-08 Sat 23:52>
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_TAGS: 
+#+HUGO_CATEGORIES: 
+#+HUGO_DRAFT: false
+Use [[file:timeshift-on-ubuntu.org][Timeshift]] to manage the snapshot on Ubuntu.

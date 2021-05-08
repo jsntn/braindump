@@ -5,7 +5,6 @@
 #+HUGO_TAGS: 
 #+HUGO_CATEGORIES: 
 #+HUGO_DRAFT: false
-
 * FAQ
 ** TODO How to make image?
 ** TODO What is Cloud Image?
