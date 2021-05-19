@@ -1,7 +1,7 @@
 +++
 title = "OpenStack"
 date = 2021-05-01T16:58:00+08:00
-lastmod = 2021-05-19T00:52:28+08:00
+lastmod = 2021-05-19T11:48:55+08:00
 draft = false
 +++
 
@@ -36,13 +36,58 @@ that you plan to use.
     access when the disk size associated with the flavor exceeds the disk size
     with which your image was created.
 
+    Depending on your distribution, the simplest way to support this is to install in your image:
+
+    -   the `cloud-init` package
+    -   the `cloud-utils` package, which, on Ubuntu and Debian, also contains the
+        `growpart` tool for extending partitions
+
+    With these packages installed, the image performs the root partition resize on
+    boot. For example, in the `/etc/rc.local` file.
+
+    If you can install the `cloud-init` and `cloud-utils` packages, we recommend that
+    when you create your images, you create a single ext3 or ext4 partition (not
+    managed by LVM).
+
+    ---
+    Reference:
+
+    -   [How to expand storage ( /dev/vda1 ) so it takes up the entire disk](https://web.archive.org/web/20210519031325/https://support.binarylane.com.au/support/solutions/articles/11000015259-how-to-expand-storage-dev-vda1-so-it-takes-up-the-entire-disk)
 -   No hard-coded MAC address information
+
+    You must remove the network persistence rules in the image because they cause
+    the network interface in the instance to come up as an interface other than
+    eth0. This is because your image has a record of the MAC address of the
+    network interface card when it was first installed, and this MAC address is
+    different each time the instance boots. You should alter the following files:
+
+    -   Replace `/etc/udev/rules.d/70-persistent-net.rules` with an empty file
+        (contains network persistence rules, including MAC address).
+    -   Replace `/lib/udev/rules.d/75-persistent-net-generator.rules` with an empty
+        file (this generates the file above).
+    -   Remove the HWADDR line from `/etc/sysconfig/network-scripts/ifcfg-eth0` on
+        Fedora-based images.
+
+    Note: If you delete the network persistent rules files, you may get a `udev kernel` warning at boot time, which is why we recommend replacing them with empty files instead.
 -   SSH server running
+    -   [Ubuntu Linux install OpenSSH server](https://www.cyberciti.biz/faq/ubuntu-linux-install-openssh-server/)
 -   Disable firewall
+
+    ```sh
+    $ sudo ufw status
+    [sudo] password for linuxconfig:
+    Status: inactive
+    ```
 -   Access instance using ssh public key (`cloud-init`)
 -   Process user data and other metadata (`cloud-init`)
 -   Paravirtualized Xen support in Linux kernel (Xen hypervisor only with Linux
     kernel version < 3.0)
+-   Delete the terminal command history
+    -   [How To Clear Shell History In Ubuntu Linux](https://www.cyberciti.biz/faq/clear-the-shell-history-in-ubuntu-linux/)
+-   Wipe free disk space
+    -   [Export small .qcow file](https://web.archive.org/web/20210519033818/https://blog.csdn.net/skydust1979/article/details/108164067)
+    -   [How to wipe free disk space in Linux?](https://superuser.com/questions/19326/how-to-wipe-free-disk-space-in-linux)
+    -   [How to wipe a hard drive clean in Linux?](https://how-to.fandom.com/wiki/How%5Fto%5Fwipe%5Fa%5Fhard%5Fdrive%5Fclean%5Fin%5FLinux)
 
 
 #### Reference {#reference}
