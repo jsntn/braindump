@@ -1,7 +1,7 @@
 +++
 title = "OpenStack"
 date = 2021-05-01T16:58:00+08:00
-lastmod = 2021-05-19T11:48:55+08:00
+lastmod = 2021-05-19T17:08:57+08:00
 draft = false
 +++
 
@@ -82,12 +82,74 @@ that you plan to use.
 -   Process user data and other metadata (`cloud-init`)
 -   Paravirtualized Xen support in Linux kernel (Xen hypervisor only with Linux
     kernel version < 3.0)
+-   Manage the `/etc/hosts` and `/etc/hostname` by `/etc/cloud/cloud.cfg`
+
+    ```sh
+    preserve_hostame: false
+    # if you do not change /etc/hostname, it will be updated with the cloud
+    # provided hostname on each boot.  If you make a change, then manual
+    # maintenance takes over, and cloud-init will not modify it.
+    ```
+
+    (via [link](https://github.com/canonical/cloud-init/blob/1793b8b70ca2e3587c271155033ef943207136ae/doc/examples/cloud-config.txt#L288))
+
+    ```sh
+    manage_etc_hosts: localhost
+    # cloud-init will generally own the 127.0.1.1 entry, and will update it to the
+    # hostname and fqdn on every boot.  All other entries will be left as is.
+    # 'ping `hostname`' will ping 127.0.1.1
+    ```
+
+    (via [link](https://github.com/canonical/cloud-init/blob/1793b8b70ca2e3587c271155033ef943207136ae/doc/examples/cloud-config.txt#L345))
+
+    Reference:
+
+    -   [Set Hostname](https://cloudinit.readthedocs.io/en/17.2/topics/modules.html#set-hostname)
+    -   [Update Etc Hosts](https://cloudinit.readthedocs.io/en/17.2/topics/modules.html#update-etc-hosts)
 -   Delete the terminal command history
+
+    ```sh
+    $ sudo -i
+    # rm ~/.bash_history
+    # history -c
+    # exit
+    $ rm ~/.bash_history
+    $ history -c
+    $ exit
+    ```
+
     -   [How To Clear Shell History In Ubuntu Linux](https://www.cyberciti.biz/faq/clear-the-shell-history-in-ubuntu-linux/)
 -   Wipe free disk space
     -   [Export small .qcow file](https://web.archive.org/web/20210519033818/https://blog.csdn.net/skydust1979/article/details/108164067)
     -   [How to wipe free disk space in Linux?](https://superuser.com/questions/19326/how-to-wipe-free-disk-space-in-linux)
     -   [How to wipe a hard drive clean in Linux?](https://how-to.fandom.com/wiki/How%5Fto%5Fwipe%5Fa%5Fhard%5Fdrive%5Fclean%5Fin%5FLinux)
+-   Convert the format of image
+
+    -   convert `.img` to `.qcow2`
+
+    <!--listend-->
+
+    ```sh
+    qemu-img convert -f raw ubuntu.img -O qcow2 ubuntu.qcow2
+    ```
+
+    -   convert `.vdi` to `.qcow2`
+
+    <!--listend-->
+
+    ```sh
+    qemu-img convert -f vdi ubuntu.vdi -O qcow2 ubuntu.qcow2
+    ```
+
+    Reference:
+
+    -   [How To Convert VirtualBox Disk Image (VDI) and img to Qcow2 format](https://computingforgeeks.com/how-to-convert-virtualbox-disk-image-vdi-and-img-to-qcow2-format/)
+-   Packaging
+
+    ```sh
+    md5sum ubuntu.qcow2 > ubuntu.qcow2.md5
+    tar -czf ubuntu.qcow2.tar.gz ubuntu.qcow2 ubuntu.qcow2.md5
+    ```
 
 
 #### Reference {#reference}
