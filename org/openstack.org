@@ -2,141 +2,13 @@
 #+TITLE: OpenStack
 #+DATE: <2021-05-01 Sat 16:58>
 #+HUGO_AUTO_SET_LASTMOD: t
-#+HUGO_TAGS: 
+#+HUGO_TAGS: openstack
 #+HUGO_CATEGORIES: 
 #+HUGO_DRAFT: false
 * FAQ
-** IN-PROGRESS How to make image?
-For a Linux-based image to have full functionality in an OpenStack Compute
-cloud, there are a few requirements. For some of these, you can fulfill the
-requirements by installing the =cloud-init= package. Read this section before you
-create your own image to be sure that the image supports the OpenStack features
-that you plan to use.
-
-- Disk partitions and resize root partition on boot (=cloud-init=)
-
-  When you create a Linux image, you must decide how to partition the disks. The
-  choice of partition method can affect the resizing functionality, as described
-  in the following sections.
-
-  The size of the disk in a virtual machine image is determined when you
-  initially create the image. However, OpenStack lets you launch instances with
-  different size drives by specifying different flavors. For example, if your
-  image was created with a 5 GB disk, and you launch an instance with a flavor
-  of =m1.small=. The resulting virtual machine instance has, by default, a
-  primary disk size of 20 GB. When the disk for an instance is resized up, zeros
-  are just added to the end.
-
-  Your image must be able to resize its partitions on boot to match the size
-  requested by the user. Otherwise, after the instance boots, you must manually
-  resize the partitions to access the additional storage to which you have
-  access when the disk size associated with the flavor exceeds the disk size
-  with which your image was created.
-
-  Depending on your distribution, the simplest way to support this is to install in your image:
-
-  - the =cloud-init= package
-  - the =cloud-utils= package, which, on Ubuntu and Debian, also contains the
-    =growpart= tool for extending partitions
-
-  With these packages installed, the image performs the root partition resize on
-  boot. For example, in the =/etc/rc.local= file.
-
-  If you can install the =cloud-init= and =cloud-utils= packages, we recommend that
-  when you create your images, you create a single ext3 or ext4 partition (not
-  managed by LVM).
-
-  ---
-  Reference:
-  - [[https://web.archive.org/web/20210519031325/https://support.binarylane.com.au/support/solutions/articles/11000015259-how-to-expand-storage-dev-vda1-so-it-takes-up-the-entire-disk][How to expand storage ( /dev/vda1 ) so it takes up the entire disk]]
-- No hard-coded MAC address information
-
-  You must remove the network persistence rules in the image because they cause
-  the network interface in the instance to come up as an interface other than
-  eth0. This is because your image has a record of the MAC address of the
-  network interface card when it was first installed, and this MAC address is
-  different each time the instance boots. You should alter the following files:
-
-  - Replace =/etc/udev/rules.d/70-persistent-net.rules= with an empty file
-    (contains network persistence rules, including MAC address).
-  - Replace =/lib/udev/rules.d/75-persistent-net-generator.rules= with an empty
-    file (this generates the file above).
-  - Remove the HWADDR line from =/etc/sysconfig/network-scripts/ifcfg-eth0= on
-    Fedora-based images.
-
-  Note: If you delete the network persistent rules files, you may get a =udev kernel= warning at boot time, which is why we recommend replacing them with empty files instead.
-- SSH server running
-
-  - [[https://www.cyberciti.biz/faq/ubuntu-linux-install-openssh-server/][Ubuntu Linux install OpenSSH server]]
-- Disable firewall
-
-  #+BEGIN_SRC sh
-    $ sudo ufw status
-    [sudo] password for linuxconfig:
-    Status: inactive
-  #+END_SRC
-- Access instance using ssh public key (=cloud-init=)
-- Process user data and other metadata (=cloud-init=)
-- Paravirtualized Xen support in Linux kernel (Xen hypervisor only with Linux
-  kernel version < 3.0)
-- Manage the =/etc/hosts= and =/etc/hostname= by =/etc/cloud/cloud.cfg=
-
-  #+BEGIN_SRC sh
-    preserve_hostame: false
-    # if you do not change /etc/hostname, it will be updated with the cloud
-    # provided hostname on each boot.  If you make a change, then manual
-    # maintenance takes over, and cloud-init will not modify it.
-  #+END_SRC
-  (via [[https://github.com/canonical/cloud-init/blob/1793b8b70ca2e3587c271155033ef943207136ae/doc/examples/cloud-config.txt#L288][link]])
-
-  #+BEGIN_SRC sh
-    manage_etc_hosts: localhost
-    # cloud-init will generally own the 127.0.1.1 entry, and will update it to the
-    # hostname and fqdn on every boot.  All other entries will be left as is.
-    # 'ping `hostname`' will ping 127.0.1.1
-  #+END_SRC
-  (via [[https://github.com/canonical/cloud-init/blob/1793b8b70ca2e3587c271155033ef943207136ae/doc/examples/cloud-config.txt#L345][link]])
-
-  Reference:
-  - [[https://cloudinit.readthedocs.io/en/17.2/topics/modules.html#set-hostname][Set Hostname]]
-  - [[https://cloudinit.readthedocs.io/en/17.2/topics/modules.html#update-etc-hosts][Update Etc Hosts]]
-- Delete the terminal command history
-
-  #+BEGIN_SRC sh
-    $ sudo -i
-    # rm ~/.bash_history
-    # history -c
-    # exit
-    $ rm ~/.bash_history
-    $ history -c
-    $ exit
-  #+END_SRC
-
-  - [[https://www.cyberciti.biz/faq/clear-the-shell-history-in-ubuntu-linux/][How To Clear Shell History In Ubuntu Linux]]
-- Wipe free disk space
-  - [[https://web.archive.org/web/20210519033818/https://blog.csdn.net/skydust1979/article/details/108164067][Export small .qcow file]]
-  - [[https://superuser.com/questions/19326/how-to-wipe-free-disk-space-in-linux][How to wipe free disk space in Linux?]]
-  - [[https://how-to.fandom.com/wiki/How_to_wipe_a_hard_drive_clean_in_Linux][How to wipe a hard drive clean in Linux?]]
-- Convert the format of image
-  - convert =.img= to =.qcow2=
-  #+BEGIN_SRC sh
-    qemu-img convert -f raw ubuntu.img -O qcow2 ubuntu.qcow2
-  #+END_SRC
-  - convert =.vdi= to =.qcow2=
-  #+BEGIN_SRC sh
-    qemu-img convert -f vdi ubuntu.vdi -O qcow2 ubuntu.qcow2
-  #+END_SRC
-
-  Reference:
-  - [[https://computingforgeeks.com/how-to-convert-virtualbox-disk-image-vdi-and-img-to-qcow2-format/][How To Convert VirtualBox Disk Image (VDI) and img to Qcow2 format]]
-- Packaging
-  #+BEGIN_SRC sh
-    md5sum ubuntu.qcow2 > ubuntu.qcow2.md5
-    tar -czf ubuntu.qcow2.tar.gz ubuntu.qcow2 ubuntu.qcow2.md5
-  #+END_SRC
-*** Reference
-- [[https://docs.openstack.org/image-guide/openstack-images.html][Image requirements]]
-** TODO What is the Cloud Image?
+- [[file:how-to-make-image.org][How to make image?]]
+* TODO
+** What is the Cloud Image?
 ** Boot an instance from an ISO image
 https://docs.openstack.org/ocata/user-guide/cli-nova-launch-instance-using-ISO-image.html
 * Troubleshooting
@@ -145,6 +17,7 @@ The main troubleshooting method about OpenStack is checking through the [[file:o
 ** What is physical network in OpenStack?
 The OpenStack Networking services can either run together on the same physical
 server, or on separate dedicated servers, which are named according to their
-roles: Controller node - The server that runs API service. Network node - The
-server that runs the OpenStack Networking agents.
+roles:
+- Controller node - The server that runs API service.
+- Network node - The server that runs the OpenStack Networking agents.
 ** L2GW
