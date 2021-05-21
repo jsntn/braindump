@@ -72,5 +72,6 @@ Programmer.
 * start coding
 * test
 * change request
-* release
+* Release
+- About [[file:semantic-versioning.org][Semantic Versioning]]
 * presentation/handover

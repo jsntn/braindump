@@ -1,8 +1,7 @@
 +++
 title = "DR"
-author = ["Jason Tian"]
 date = 2021-05-15T17:02:00+08:00
-lastmod = 2021-05-15T21:45:09+08:00
+lastmod = 2021-05-22T00:51:41+08:00
 draft = false
 +++
 
@@ -99,7 +98,9 @@ Programmer.
 ## change request {#change-request}
 
 
-## release {#release}
+## Release {#release}
+
+-   About [Semantic Versioning]({{< relref "semantic-versioning" >}})
 
 
 ## presentation/handover {#presentation-handover}
