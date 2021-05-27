@@ -16,7 +16,7 @@ The technology updating is fast and exciting!
 I'm not young anymore, and I always hope that I can produce something memorable.
 
 * Solution Requirements/Design/Describe the Design
-*** Before we started the realistic, we took much time on the design.
+** Before we started the realization, we took much time on the design.
 
 Writing a program is the different concept in design software. Design is the
 place where software quality is established. Before starting of designing
@@ -29,7 +29,7 @@ model can be accessed for quality and improved before code is generated.
 In a software engineering context, the first need is to develop the models of
 program, but not the program themselves.
 
-*** Software design is different from coding.
+** Software design is different from coding.
 
 At first it is very clear that, design is not coding and coding is not design.
 It is created from program components.
@@ -39,7 +39,7 @@ Coding is the language specification which is implementation of the design.  It
 runs on the computer and, provides the expected result.  (via
 https://www.chegg.com/homework-help/software-engineering-8th-edition-chapter-12-solutions-9780078022128)
 
-*** What is a good design?
+** What is a good design?
 
 A good design should be the process of envisioning and defining software
 solutions to one or more sets of problems, and you must agree that one of the
@@ -61,17 +61,29 @@ as a solo player, try to explain that to yourself could be helpful for you to
 find something different, like Rubber Duck Debugging from The Pragmatic
 Programmer.
 
-*** Design is not coding, coding is not design.
-* timeplan/gtd
-* roadmap
-* risk analysis
-* user story
-* Bash or Python
-* git/rosetta/pipeline
-* editor
-* start coding
-* test
-* change request
-* Release
+** Design is not coding, coding is not design.
+** Be down-to-earth.
+** The solution should be improved over time.
+** "A picture is worth a thousand words."
+* Timeplan/GTD
+Time, Scope and Cost
+* Roadmap
+* Risk Analysis
+* User Story
+* Bash OR Python
+A language is a tool, that's it.
+* Git/Pipeline
+* Editor
+* Start Coding
+** Keep monitoring during coding.
+The realization and design should always be aligned, monitored, as always.
+** We must have difficult time.
+* Testing
+Use CI/CD.
+* Change Request
+* Packaging and Release
+- About [[https://note.jsntn.com/deployment.html][The Deployment]]
 - About [[file:semantic-versioning.org][Semantic Versioning]]
-* presentation/handover
+* Documents
+* Presentation and Handover
+* Support Phase

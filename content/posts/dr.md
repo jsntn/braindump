@@ -1,7 +1,7 @@
 +++
 title = "DR"
 date = 2021-05-15T17:02:00+08:00
-lastmod = 2021-05-22T00:51:41+08:00
+lastmod = 2021-05-27T23:32:46+08:00
 draft = false
 +++
 
@@ -17,7 +17,7 @@ I'm not young anymore, and I always hope that I can produce something memorable.
 ## Solution Requirements/Design/Describe the Design {#solution-requirements-design-describe-the-design}
 
 
-#### Before we started the realistic, we took much time on the design. {#before-we-started-the-realistic-we-took-much-time-on-the-design-dot}
+### Before we started the realization, we took much time on the design. {#before-we-started-the-realization-we-took-much-time-on-the-design-dot}
 
 Writing a program is the different concept in design software. Design is the
 place where software quality is established. Before starting of designing
@@ -31,7 +31,7 @@ In a software engineering context, the first need is to develop the models of
 program, but not the program themselves.
 
 
-#### Software design is different from coding. {#software-design-is-different-from-coding-dot}
+### Software design is different from coding. {#software-design-is-different-from-coding-dot}
 
 At first it is very clear that, design is not coding and coding is not design.
 It is created from program components.
@@ -42,7 +42,7 @@ runs on the computer and, provides the expected result.  (via
 <https://www.chegg.com/homework-help/software-engineering-8th-edition-chapter-12-solutions-9780078022128>)
 
 
-#### What is a good design? {#what-is-a-good-design}
+### What is a good design? {#what-is-a-good-design}
 
 A good design should be the process of envisioning and defining software
 solutions to one or more sets of problems, and you must agree that one of the
@@ -65,42 +65,72 @@ find something different, like Rubber Duck Debugging from The Pragmatic
 Programmer.
 
 
-#### Design is not coding, coding is not design. {#design-is-not-coding-coding-is-not-design-dot}
+### Design is not coding, coding is not design. {#design-is-not-coding-coding-is-not-design-dot}
 
 
-## timeplan/gtd {#timeplan-gtd}
+### Be down-to-earth. {#be-down-to-earth-dot}
 
 
-## roadmap {#roadmap}
+### The solution should be improved over time. {#the-solution-should-be-improved-over-time-dot}
 
 
-## risk analysis {#risk-analysis}
+### "A picture is worth a thousand words." {#a-picture-is-worth-a-thousand-words-dot}
 
 
-## user story {#user-story}
+## Timeplan/GTD {#timeplan-gtd}
+
+Time, Scope and Cost
 
 
-## Bash or Python {#bash-or-python}
+## Roadmap {#roadmap}
 
 
-## git/rosetta/pipeline {#git-rosetta-pipeline}
+## Risk Analysis {#risk-analysis}
 
 
-## editor {#editor}
+## User Story {#user-story}
 
 
-## start coding {#start-coding}
+## Bash OR Python {#bash-or-python}
+
+A language is a tool, that's it.
 
 
-## test {#test}
+## Git/Pipeline {#git-pipeline}
 
 
-## change request {#change-request}
+## Editor {#editor}
 
 
-## Release {#release}
+## Start Coding {#start-coding}
 
+
+### Keep monitoring during coding. {#keep-monitoring-during-coding-dot}
+
+The realization and design should always be aligned, monitored, as always.
+
+
+### We must have difficult time. {#we-must-have-difficult-time-dot}
+
+
+## Testing {#testing}
+
+Use CI/CD.
+
+
+## Change Request {#change-request}
+
+
+## Packaging and Release {#packaging-and-release}
+
+-   About [The Deployment](https://note.jsntn.com/deployment.html)
 -   About [Semantic Versioning]({{< relref "semantic-versioning" >}})
 
 
-## presentation/handover {#presentation-handover}
+## Documents {#documents}
+
+
+## Presentation and Handover {#presentation-and-handover}
+
+
+## Support Phase {#support-phase}
