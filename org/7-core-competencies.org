@@ -1,0 +1,29 @@
+#+HUGO_BASE_DIR: ../
+#+TITLE: The Seven Core Competencies of Business Agility
+#+DATE: <2021-06-01 Tue 23:23>
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_TAGS: 
+#+HUGO_CATEGORIES: 
+#+HUGO_DRAFT: false
+About [[file:safe.org][SAFe]]
+* The Seven Core Competencies of Business Agility
+- Team and Technical Agility
+- Agile Product Delivery
+- Enterprise Solution Delivery
+- Lean Portfolio Management
+- Organizational Agility
+- Continuous Learning Culture
+- Lean-Agile Leadership
+
+#+BEGIN_QUOTE
+It is not enough that management commit themselves to quality and productivity,
+they must know what it is they must do.\\
+Such a responsibility cannot be delegated.\\
+-- W. Edwards Deming
+#+END_QUOTE
+* Measure and Grow
+Go download the "SAFe Business Agility Assessment" from [[https://www.scaledagileframework.com/measure-and-grow/][here]].
+* Reference
+- https://www.scaledagileframework.com/business-agility/
+- https://www.scaledagileframework.com/measure-and-grow/
+

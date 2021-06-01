@@ -1,0 +1,29 @@
+#+HUGO_BASE_DIR: ../
+#+TITLE: What is SAFe?
+#+DATE: <2021-06-01 Tue 22:57>
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_TAGS: 
+#+HUGO_CATEGORIES: 
+#+HUGO_DRAFT: false
+#+BEGIN_QUOTE
+Scaled Agile Framework® (SAFe®) empowers complex organizations to achieve the
+benefits of Lean-Agile software and systems development at scale.
+#+END_QUOTE
+
+SAFe is the world’s leading framework for scaling Agile across the
+enterprise. Used by hundreds of the world’s largest organizations, SAFe sustains
+and drives faster time-to-market, dramatic increases in productivity and
+quality, and improvement in employee engagement.
+
+SAFe is designed to help businesses continuously and more efficiently deliver
+value on a regular and predictable schedule. It provides a knowledge base of
+proven, integrated principles and practices to support enterprise agility.
+
+#+BEGIN_QUOTE
+Those who master large-scale software delivery will define the economic
+landscape of the 21st century. - Mik Kersten
+#+END_QUOTE
+
+---
+Reference
+- https://www.scaledagile.com/enterprise-solutions/what-is-safe/
