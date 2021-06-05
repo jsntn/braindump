@@ -1,0 +1,20 @@
+#+HUGO_BASE_DIR: ../
+#+TITLE: How to use `make`?
+#+DATE: <2021-06-05 Sat 23:23>
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_TAGS: 
+#+HUGO_CATEGORIES: 
+#+HUGO_DRAFT: false
+A =Makefile= example,
+
+#+BEGIN_SRC sh
+  ABC.tar.gz.md5: ABC.tar.gz
+  	md5sum ABC.tar.gz > ABC.tar.gz.md5
+
+  ABC.tar.gz:
+  	tar -czf ABC.tar.gz ABC/
+#+END_SRC
+
+---
+Reference:
+- http://www.ruanyifeng.com/blog/2015/02/make.html

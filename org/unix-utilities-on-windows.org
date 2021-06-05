@@ -1,0 +1,22 @@
+#+HUGO_BASE_DIR: ../
+#+TITLE: Unix Utilities on Windows
+#+DATE: <2021-06-05 Sat 00:33>
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_TAGS: 
+#+HUGO_CATEGORIES: 
+#+HUGO_DRAFT: false
+Install Chocolatey on Windows by following the method from https://chocolatey.org/install
+
+Install the Unix Utilities, like =make=,
+
+#+BEGIN_SRC sh
+  choco install make
+#+END_SRC
+
+Read more... [[file:make.org][How to use `make`?]]
+
+---
+Reference:
+- http://ergoemacs.org/emacs/emacs_mswin.html
+- http://xahlee.info/mswin/xah_windows_setup.html
+- http://xahlee.info/mswin/Windows_software.html
