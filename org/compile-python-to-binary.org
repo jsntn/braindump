@@ -1,0 +1,9 @@
+#+HUGO_BASE_DIR: ../
+#+TITLE: Compile Python Script to Binary Executable
+#+DATE: <2021-06-08 Tue 00:04>
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_TAGS: 
+#+HUGO_CATEGORIES: 
+#+HUGO_DRAFT: false
+* Reference
+- https://stackoverflow.com/questions/12339671/how-to-compile-python-script-to-binary-executable
