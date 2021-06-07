@@ -1,0 +1,21 @@
+#+HUGO_BASE_DIR: ../
+#+TITLE: Emacs on Windows
+#+DATE: <2021-06-07 Mon 23:05>
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_TAGS: 
+#+HUGO_CATEGORIES: 
+#+HUGO_DRAFT: false
+* Installation
+List the Emacs installation on Windows platform.
+** Native Emacs
+** VirtualBox with Emacs
+** Dockerized Emacs
+** Cygwin/MinGW with Emacs
+** Chololatey Software
+#+BEGIN_SRC sh
+  choco install emacs
+#+END_SRC
+* Unix Utilities
+* Encryption
+* Shell/Term
+* Reference
