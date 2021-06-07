@@ -1,9 +1,11 @@
 +++
 title = "Unix Utilities on Windows"
 date = 2021-06-05T00:33:00+08:00
-lastmod = 2021-06-05T23:26:54+08:00
+lastmod = 2021-06-07T22:57:53+08:00
 draft = false
 +++
+
+## Pacage Manager {#pacage-manager}
 
 Install Chocolatey on Windows by following the method from <https://chocolatey.org/install>
 
@@ -15,8 +17,15 @@ choco install make
 
 Read more... [How to use \`make\`?]({{< relref "make" >}})
 
----
-Reference:
+
+## Recommended Packages {#recommended-packages}
+
+-   make
+-   git
+-   gnuwin32-coreutils.install
+
+
+## Reference {#reference}
 
 -   <http://ergoemacs.org/emacs/emacs%5Fmswin.html>
 -   <http://xahlee.info/mswin/xah%5Fwindows%5Fsetup.html>

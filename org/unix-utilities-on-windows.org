@@ -5,6 +5,7 @@
 #+HUGO_TAGS: 
 #+HUGO_CATEGORIES: 
 #+HUGO_DRAFT: false
+* Pacage Manager
 Install Chocolatey on Windows by following the method from https://chocolatey.org/install
 
 Install the Unix Utilities, like =make=,
@@ -15,8 +16,14 @@ Install the Unix Utilities, like =make=,
 
 Read more... [[file:make.org][How to use `make`?]]
 
----
-Reference:
+* Recommended Packages
+
+- make
+- git
+- gnuwin32-coreutils.install
+
+* Reference
+
 - http://ergoemacs.org/emacs/emacs_mswin.html
 - http://xahlee.info/mswin/xah_windows_setup.html
 - http://xahlee.info/mswin/Windows_software.html
