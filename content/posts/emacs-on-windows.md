@@ -1,7 +1,7 @@
 +++
 title = "Emacs on Windows"
 date = 2021-06-07T23:05:00+08:00
-lastmod = 2021-06-07T23:11:59+08:00
+lastmod = 2021-06-08T00:26:54+08:00
 draft = false
 +++
 
@@ -22,17 +22,17 @@ List the Emacs installation on Windows platform.
 ### Cygwin/MinGW with Emacs {#cygwin-mingw-with-emacs}
 
 
-### Chololatey Software {#chololatey-software}
+### [Chololatey]({{< relref "unix-utilities-on-windows" >}}) Software {#chololatey--unix-utilities-on-windows-dot-md--software}
 
 ```sh
 choco install emacs
 ```
 
 
-## Unix Utilities {#unix-utilities}
+## [Unix Utilities]({{< relref "unix-utilities-on-windows" >}}) {#unix-utilities--unix-utilities-on-windows-dot-md}
 
 
-## Encryption {#encryption}
+## [Encryption]({{< relref "encryption" >}}) {#encryption--encryption-dot-md}
 
 
 ## Shell/Term {#shell-term}

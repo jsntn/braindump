@@ -5,11 +5,13 @@
 #+HUGO_TAGS: 
 #+HUGO_CATEGORIES: 
 #+HUGO_DRAFT: false
-
 EDC
-
 #+begin_quote
 Everyday Carry
 #+end_quote
-
-⊕ Read: https://www.zhihu.com/question/19808099
+* Brands
+- [[https://fxsm.tmall.com][Fat Bear]]
+- [[https://www.pelican.com][Pelican]]
+- [[https://www.urbanarmorgear.com][UAG]]
+* Reference
+- https://www.zhihu.com/question/19808099

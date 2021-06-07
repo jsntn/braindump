@@ -11,11 +11,11 @@ List the Emacs installation on Windows platform.
 ** VirtualBox with Emacs
 ** Dockerized Emacs
 ** Cygwin/MinGW with Emacs
-** Chololatey Software
+** [[file:unix-utilities-on-windows.org][Chololatey]] Software
 #+BEGIN_SRC sh
   choco install emacs
 #+END_SRC
-* Unix Utilities
-* Encryption
+* [[file:unix-utilities-on-windows.org][Unix Utilities]]
+* [[file:encryption.org][Encryption]]
 * Shell/Term
 * Reference
