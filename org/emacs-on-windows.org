@@ -9,6 +9,7 @@
 List the Emacs installation on Windows platform.
 ** Native Emacs
 ** VirtualBox with Emacs
+-> [[file:emacs-on-arch-linux.org][Emacs on Arch Linux]]
 ** Dockerized Emacs
 ** Cygwin/MinGW with Emacs
 ** [[file:unix-utilities-on-windows.org][Chololatey]] Software

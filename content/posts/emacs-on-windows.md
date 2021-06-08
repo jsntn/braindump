@@ -1,7 +1,7 @@
 +++
 title = "Emacs on Windows"
 date = 2021-06-07T23:05:00+08:00
-lastmod = 2021-06-08T00:26:54+08:00
+lastmod = 2021-06-08T23:36:01+08:00
 draft = false
 +++
 
@@ -14,6 +14,8 @@ List the Emacs installation on Windows platform.
 
 
 ### VirtualBox with Emacs {#virtualbox-with-emacs}
+
+-> [Emacs on Arch Linux]({{< relref "emacs-on-arch-linux" >}})
 
 
 ### Dockerized Emacs {#dockerized-emacs}

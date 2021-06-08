@@ -1,0 +1,27 @@
+#+HUGO_BASE_DIR: ../
+#+TITLE: Emacs on Arch Linux
+#+DATE: <2021-06-08 Tue 23:10>
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_TAGS: 
+#+HUGO_CATEGORIES: 
+#+HUGO_DRAFT: false
+* Arch Linux with Emacs
+Boot the VM on Arch Linux iso and then run the command,
+
+#+BEGIN_SRC sh
+  wget https://raw.githubusercontent.com/jsntn/spartan-arch/my-version/install.sh -O install.sh
+  bash install.sh [user] [password] [fast]
+#+END_SRC
+
+All arguments are optional and will be prompted for if not passed on invocation:
+
+- =[user]= is your username
+- =[password]= is what you want the root and user password to be
+- =[fast]= is boolean 1 or 0 and controls using rankmirrors during set up which
+  will be slow
+
+The =install.sh= script will run and then reboot the computer once done.
+
+-> https://github.com/jsntn/spartan-arch/tree/my-version
+* Install Packages
+* Load Linux dotfiles
