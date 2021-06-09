@@ -1,0 +1,27 @@
+#+HUGO_BASE_DIR: ../
+#+TITLE: VeraCrypt on MacOS
+#+DATE: <2021-06-09 Wed 17:33>
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_TAGS: 
+#+HUGO_CATEGORIES: 
+#+HUGO_DRAFT: false
+* How to execute veracrypt command line?
+The command is actually =/Applications/VeraCrypt.app/Contents/MacOS/VeraCrypt=.
+
+While there should always be an elegant way to use it!\\
+You can set up a symbolic link named =veracrypt= to the executable. The following will work in a terminal,
+
+#+BEGIN_SRC sh
+  mkdir -p ~/bin ; # <<-- if it doesn't exist already
+  ln -s /Applications/VeraCrypt.app/Contents/MacOS/VeraCrypt ~/bin/veracrypt
+#+END_SRC
+
+You can then invoke it to get help with (the =-t= is for text-only mode):
+
+#+BEGIN_SRC sh
+  PATH="$HOME/bin:$PATH" ; # <<-- if not already on your search path
+  veracrypt -t -h
+#+END_SRC
+* Reference
+- https://apple.stackexchange.com/questions/230520/how-to-execute-veracrypt-on-the-command-line
+- https://sourceforge.net/p/veracrypt/discussion/technical/thread/5dfac090/

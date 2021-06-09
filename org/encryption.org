@@ -5,12 +5,10 @@
 #+HUGO_TAGS: 
 #+HUGO_CATEGORIES: 
 #+HUGO_DRAFT: false
-
 Encryption is the method by which information is converted into secret code that
 hides the information's true meaning. The science of encrypting and decrypting
 information is called cryptography. In computing, unencrypted data is also known
 as plaintext, and encrypted data is called ciphertext.
-
 ** Cryptomator
 https://cn.apkjam.com/cryptomator.html\\
 https://jsntn.com/software/portable-cryptomator.html
@@ -19,7 +17,8 @@ KeePass https://haikebang.com/passphrase.html
 ** Saferoom
 https://cn.apkjam.com/60s/saferoom.html
 ** TrueCrypt/VeraCrypt/EDS/CryptoDisk
-TrueCrypt is not secure https://jsntn.com/software/2014/06/01/truecrypt.html\\
-EDS https://cn.apkjam.com/eds.html
+- [[https://jsntn.com/software/2014/06/01/truecrypt.html][TrueCrypt is not secure]]
+- [[https://cn.apkjam.com/eds.html][EDS]]
+- [[file:veracrypt-on-macos.org][VeraCrypt on MacOS]]
 ** Read More
 https://haikebang.com/secure-portable.html

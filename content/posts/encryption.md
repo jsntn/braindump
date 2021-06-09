@@ -1,7 +1,7 @@
 +++
 title = "Encryption"
 date = 2021-05-03T17:24:00+08:00
-lastmod = 2021-05-06T01:59:30+08:00
+lastmod = 2021-06-09T17:44:56+08:00
 draft = false
 +++
 
@@ -29,8 +29,9 @@ KeePass <https://haikebang.com/passphrase.html>
 
 ## TrueCrypt/VeraCrypt/EDS/CryptoDisk {#truecrypt-veracrypt-eds-cryptodisk}
 
-TrueCrypt is not secure <https://jsntn.com/software/2014/06/01/truecrypt.html><br />
-EDS <https://cn.apkjam.com/eds.html>
+-   [TrueCrypt is not secure](https://jsntn.com/software/2014/06/01/truecrypt.html)
+-   [EDS](https://cn.apkjam.com/eds.html)
+-   [VeraCrypt on MacOS]({{< relref "veracrypt-on-macos" >}})
 
 
 ## Read More {#read-more}
