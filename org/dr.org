@@ -125,4 +125,4 @@ Use CI/CD.
 * Presentation and Handover
 * Support Phase
 -----
-EOF: You've come a long way.
+@@html:<span># EOF: You've come a long way.</span>@@

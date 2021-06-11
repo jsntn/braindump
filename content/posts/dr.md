@@ -1,7 +1,7 @@
 +++
 title = "DR"
 date = 2021-05-15T17:02:00+08:00
-lastmod = 2021-06-11T11:35:03+08:00
+lastmod = 2021-06-11T12:00:32+08:00
 draft = false
 +++
 
@@ -192,4 +192,4 @@ Use CI/CD.
 
 ---
 
-EOF: You've come a long way.
+<span># EOF: You've come a long way.</span>
