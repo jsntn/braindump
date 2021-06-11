@@ -1,7 +1,7 @@
 +++
 title = "DR"
 date = 2021-05-15T17:02:00+08:00
-lastmod = 2021-06-11T11:28:34+08:00
+lastmod = 2021-06-11T11:35:03+08:00
 draft = false
 +++
 
@@ -161,7 +161,7 @@ Using effective tools to manage the projects.
 
 ### Keep monitoring/following-up during coding. {#keep-monitoring-following-up-during-coding-dot}
 
-The realization and design should always be aligned, monitored, as always.
+The realization and design should always be aligned, monitored, as always.<br />
 The assigned tasks should be monitored and followed up.
 
 

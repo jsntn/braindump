@@ -112,7 +112,7 @@ Using effective tools to manage the projects.
 - etc.
 * Start Coding
 ** Keep monitoring/following-up during coding.
-The realization and design should always be aligned, monitored, as always.
+The realization and design should always be aligned, monitored, as always.\\
 The assigned tasks should be monitored and followed up.
 ** We must have difficult time.
 * Testing
