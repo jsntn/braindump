@@ -1,0 +1,33 @@
+#+HUGO_BASE_DIR: ../
+#+TITLE: Note-taking
+#+DATE: <2021-06-11 Fri 14:12>
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_TAGS: 
+#+HUGO_CATEGORIES: 
+#+HUGO_DRAFT: false
+* Bullet Journal
+#+BEGIN_QUOTE
+  A bullet journal is a method of personal organization developed by designer
+  Ryder Carroll. The system organizes scheduling, reminders, to-do lists,
+  brainstorming, and other organizational tasks into a single notebook.\\
+#+END_QUOTE
+-> https://bulletjournal.com
+* Org-mode
+* Org-roam
+#+BEGIN_QUOTE
+  Org-roam is a tool for network thought. It reproduces some of Roam Research's
+  features within the all-powerful Org-mode.
+
+  Org-roam is a solution for effortless non-hierarchical note-taking with
+  Org-mode. With Org-roam, notes flow naturally, making note-taking fun and
+  easy. Org-roam keeps closely to Org syntax, and will work for anyone already
+  using Org-mode for their personal wiki.
+#+END_QUOTE
+-> https://www.orgroam.com/manual.html
+
+Read more,
+- [[file:org-roam-and-project.org][Use Org-roam to manage project in an effective way]]
+* Read More
+- [[https://haikebang.org/t/topic/82][How to Take Smart Notes?]]
+* Discuss Community
+- https://haikebang.org/c/note-taking/
