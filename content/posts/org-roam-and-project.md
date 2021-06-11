@@ -1,7 +1,7 @@
 +++
 title = "Use Org-roam to manage project in an effective way"
 date = 2021-06-11T14:21:00+08:00
-lastmod = 2021-06-11T15:59:12+08:00
+lastmod = 2021-06-11T16:48:08+08:00
 draft = false
 +++
 
@@ -15,7 +15,7 @@ draft = false
 
 ## The Note Type of Your Project {#the-note-type-of-your-project}
 
-Compare to the note type of Zettelkasten, the note type of our project should be
+Compare to the note type of [Zettelkasten]({{< relref "zettelkasten" >}}), the note type of our project should be
 different as project notes/items are normally generated and used as project goes
 by, and the notes can be abandoned/archived once the project is over, at least
 for most of notes/items.
