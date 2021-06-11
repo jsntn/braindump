@@ -1,7 +1,7 @@
 +++
 title = "DR"
 date = 2021-05-15T17:02:00+08:00
-lastmod = 2021-05-27T23:32:46+08:00
+lastmod = 2021-06-11T11:28:34+08:00
 draft = false
 +++
 
@@ -74,12 +74,21 @@ Programmer.
 ### The solution should be improved over time. {#the-solution-should-be-improved-over-time-dot}
 
 
+### The solution should be clear as much as possible. {#the-solution-should-be-clear-as-much-as-possible-dot}
+
+
 ### "A picture is worth a thousand words." {#a-picture-is-worth-a-thousand-words-dot}
 
 
 ## Timeplan/GTD {#timeplan-gtd}
 
 Time, Scope and Cost
+
+
+## Sprint/Milestone {#sprint-milestone}
+
+
+### Split the goal into some sprints/milestones. {#split-the-goal-into-some-sprints-milestones-dot}
 
 
 ## Roadmap {#roadmap}
@@ -93,21 +102,67 @@ Time, Scope and Cost
 
 ## Bash OR Python {#bash-or-python}
 
-A language is a tool, that's it.
+1.  A language is a tool, that's it.
+2.  Define the stacks and version before kickoff, and keep them aligned until the
+    end.
+
+    | COMPONENT | VERSION                                     |
+    |-----------|---------------------------------------------|
+    | OS        | Ubuntu 16.04.7 LTS 64-bit PC (AMD64) server |
+    | Docker    | 20.10.6                                     |
+    | Jenkins   | 2.249.1                                     |
+    | Ansible   | 2.7.0                                       |
+    | Python    | 3.5.2                                       |
 
 
-## Git/Pipeline {#git-pipeline}
+## Team {#team}
 
 
-## Editor {#editor}
+### Team Setup {#team-setup}
+
+-   SA
+-   Developer
+-   Tester
+
+-> Who will be responsible for the deliverables packaging? the documents? and
+   the monitoring?
+
+
+### Communication {#communication}
+
+
+#### An effective communication is the precondition to effective co-operation. {#an-effective-communication-is-the-precondition-to-effective-co-operation-dot}
+
+-> Is English your official language in your team?
+
+
+#### Role and Responsibility {#role-and-responsibility}
+
+Clear Role is not enough, define what his responsibility should be.
+
+
+## Tools {#tools}
+
+Using effective tools to manage the projects.
+
+
+### Git, Pipeline, Jira, Teams... {#git-pipeline-jira-teams-dot-dot-dot}
+
+
+## Editor OR IDE {#editor-or-ide}
+
+-   Vim
+-   Emacs
+-   etc.
 
 
 ## Start Coding {#start-coding}
 
 
-### Keep monitoring during coding. {#keep-monitoring-during-coding-dot}
+### Keep monitoring/following-up during coding. {#keep-monitoring-following-up-during-coding-dot}
 
 The realization and design should always be aligned, monitored, as always.
+The assigned tasks should be monitored and followed up.
 
 
 ### We must have difficult time. {#we-must-have-difficult-time-dot}
@@ -134,3 +189,7 @@ Use CI/CD.
 
 
 ## Support Phase {#support-phase}
+
+---
+
+EOF: You've come a long way.

@@ -64,19 +64,56 @@ Programmer.
 ** Design is not coding, coding is not design.
 ** Be down-to-earth.
 ** The solution should be improved over time.
+** The solution should be clear as much as possible.
 ** "A picture is worth a thousand words."
 * Timeplan/GTD
 Time, Scope and Cost
+* Sprint/Milestone
+** Split the goal into some sprints/milestones.
 * Roadmap
 * Risk Analysis
 * User Story
 * Bash OR Python
-A language is a tool, that's it.
-* Git/Pipeline
-* Editor
+1. A language is a tool, that's it.
+2. Define the stacks and version before kickoff, and keep them aligned until the
+   end.
+   |-----------+---------------------------------------------|
+   | COMPONENT |                                     VERSION |
+   |-----------+---------------------------------------------|
+   | OS        | Ubuntu 16.04.7 LTS 64-bit PC (AMD64) server |
+   |-----------+---------------------------------------------|
+   | Docker    |                                     20.10.6 |
+   |-----------+---------------------------------------------|
+   | Jenkins   |                                     2.249.1 |
+   |-----------+---------------------------------------------|
+   | Ansible   |                                       2.7.0 |
+   |-----------+---------------------------------------------|
+   | Python    |                                       3.5.2 |
+   |-----------+---------------------------------------------|
+* Team
+** Team Setup
+- SA
+- Developer
+- Tester
+
+-> Who will be responsible for the deliverables packaging? the documents? and
+   the monitoring?
+** Communication
+*** An effective communication is the precondition to effective co-operation.
+-> Is English your official language in your team?
+*** Role and Responsibility
+Clear Role is not enough, define what his responsibility should be.
+* Tools
+Using effective tools to manage the projects.
+** Git, Pipeline, Jira, Teams...
+* Editor OR IDE
+- Vim
+- Emacs
+- etc.
 * Start Coding
-** Keep monitoring during coding.
+** Keep monitoring/following-up during coding.
 The realization and design should always be aligned, monitored, as always.
+The assigned tasks should be monitored and followed up.
 ** We must have difficult time.
 * Testing
 Use CI/CD.
@@ -87,3 +124,5 @@ Use CI/CD.
 * Documents
 * Presentation and Handover
 * Support Phase
+-----
+EOF: You've come a long way.
