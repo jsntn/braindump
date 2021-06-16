@@ -44,5 +44,5 @@ to install it manually. Like Ubuntu,
 * Use openssl ca to sign the CA
 TODO: placeholder
 * Reference
-- https://blog.hly0928.com/post/generate-ca-root-cert-for-surge/
-- https://www.sslshopper.com/article-most-common-openssl-commands.html
+- [[https://web.archive.org/web/20210616052312/https://blog.hly0928.com/post/generate-ca-root-cert-for-surge/][为 Surge 自签发 CA 根证书]]
+- [[https://web.archive.org/web/20210601113327/https://www.sslshopper.com/article-most-common-openssl-commands.html][The Most Common OpenSSL Commands]]

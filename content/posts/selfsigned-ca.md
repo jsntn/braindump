@@ -1,7 +1,7 @@
 +++
 title = "Self-signed CA(Certificate Authority)"
 date = 2021-06-16T10:56:00+08:00
-lastmod = 2021-06-16T11:41:19+08:00
+lastmod = 2021-06-16T13:26:17+08:00
 draft = false
 +++
 
@@ -51,5 +51,5 @@ TODO: placeholder
 
 ## Reference {#reference}
 
--   <https://blog.hly0928.com/post/generate-ca-root-cert-for-surge/>
--   <https://www.sslshopper.com/article-most-common-openssl-commands.html>
+-   [为 Surge 自签发 CA 根证书](https://web.archive.org/web/20210616052312/https://blog.hly0928.com/post/generate-ca-root-cert-for-surge/)
+-   [The Most Common OpenSSL Commands](https://web.archive.org/web/20210601113327/https://www.sslshopper.com/article-most-common-openssl-commands.html)
