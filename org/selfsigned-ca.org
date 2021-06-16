@@ -1,0 +1,48 @@
+#+HUGO_BASE_DIR: ../
+#+TITLE: Self-signed CA(Certificate Authority)
+#+DATE: <2021-06-16 Wed 10:56>
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_TAGS: 
+#+HUGO_CATEGORIES: 
+#+HUGO_DRAFT: false
+* Install the OpenSSL
+OpenSSL is a built-in package on macOS, while on Linux distributions, you need
+to install it manually. Like Ubuntu,
+
+#+BEGIN_SRC sh
+  apt install openssl
+#+END_SRC
+
+* Use openssl x509 to sign the CA
+
+1. Generate a new private key and Certificate Signing Request
+
+   #+BEGIN_SRC sh
+     mkdir cert && cd cert
+     openssl genrsa -out ca.key 2048
+     openssl req -new -sha256 -key ca.key -out ca.csr
+   #+END_SRC
+
+2. Generate a self-signed certificate
+
+   #+BEGIN_SRC sh
+     openssl x509 -req -sha256 -days 3650 -in ca.csr -signkey ca.key -out ca.crt
+   #+END_SRC
+
+3. Convert a certificate file and a private key to PKCS#12 (.p12)
+
+   #+BEGIN_SRC sh
+     openssl pkcs12 -export -clcerts -in ca.crt -inkey ca.key -out ca.p12 -password pass:<password>
+   #+END_SRC
+
+4. Encode PKCS#12 as Base64
+
+   #+BEGIN_SRC sh
+     base64 -w 0 ca.p12
+   #+END_SRC
+
+* Use openssl ca to sign the CA
+TODO: placeholder
+* Reference
+- https://blog.hly0928.com/post/generate-ca-root-cert-for-surge/
+- https://www.sslshopper.com/article-most-common-openssl-commands.html
