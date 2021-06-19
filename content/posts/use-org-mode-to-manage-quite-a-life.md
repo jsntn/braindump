@@ -1,0 +1,136 @@
++++
+title = "Use Org-mode to manage quite a life"
+date = 2021-06-18T23:05:00+08:00
+lastmod = 2021-06-20T00:30:06+08:00
+draft = false
++++
+
+《奇特的一生》是一本传记体小说，描述了俄罗斯科学家柳比歇夫如何运用时间统计法度过了他的一生。所谓时间统计法，说起来实在不起眼：统计自己做每件事情的纯时间，“工作中的任何间歇，我都要创除。我计算的是纯时间，”柳比歇夫写道，“纯时间要比毛时间少得多。所谓毛时间，就是你花在这项工作上的时间。” 柳比歇夫典型的时间统计日记是这样的：
+
+-   乌里扬诺夫斯克。1964 年 4 月 8 日。分类昆虫学：鉴定袋蛾，结束——2 小时 20 分。开始写关于袋蛾的报告——1 小时 5 分（1.0）。
+-   附加工作：给达维陀娃和布里亚赫尔写信，6 页——3 小时 20 分（0.5）。
+-   路途往返——0.5。
+-   休息——剃胡子。《乌里扬诺夫斯克真理报》——15 分，《消息报》——10 分，《文学报》——20分；阿・托尔斯泰的《吸血鬼》，66 页——1 小时 30 分。听里姆斯基・柯萨科夫的《沙皇的未婚妻》。
+-   基本工作合计——6 小时 45 分。
+
+其中记录了一天当中各项活动花费的“纯时间”，最后合计了第一类工作（科研活动）的时间。此外，每月和每年，柳比歇夫都对自己的时间统计日记进行进一步汇总统计，将自己时间的花费清楚明了地列于眼前。正是这样一个简单的方法帮助柳比歇夫实现了“奇特的一生”。通常，柳比歇夫每天能有七、八个小时的纯学术工作时间，最高纪录是十一小时三十分。
+
+我们每个人一天的纯工作时间到底有多少呢？约摸估算一番，我想能达到柳比歇夫这个数字的少之又少。两小时？三小时？事实上，因为人对自己时间利用的估计是如此的不靠谱，实际的纯工作时间可能比你想像得还要少得多。物理学家 Michael Nielsen 在[一篇文章](https://web.archive.org/web/20131018221023/http://michaelnielsen.org/blog/principles-of-effective-research/)中写道：
+
+> 一个同事曾告诉我，他的一个朋友在一段时间里用码表记录自己每周做研究工作的时间。令他震惊的是，除去每天当中他陷入的所有其他事情——中断，邮件，上网，电话，没成效的会议，和朋友聊天等，他平均每天只用了半小时在研究工作上。如果说这是许多研究者的典型情况，我并不对此感到意外。
+
+彼德・德鲁克在《卓有成效的管理者》中也谈到：
+
+> 某公司的董事长，十分肯定地对我说他的时间大致分成三个部分：1/3 用于与公司高级管理人员研讨业务；1/3 用于接待重要客户；其余 1/3 则用于参加各种社会活动。但是，等实际记录了六个星期之后，跟他原来的估计比较，结果发现在上述三个方面，他几乎没花什么时间……这份时间记录是由他的秘书记下来的，当秘书把记录送给他看时，他简直一点儿都不能相信。
+
+因此，看似简单的时间统计法恰恰蕴含了深刻的力量。唯有通过实际的统计数字，我们才能自知。我刚知道这个方法时，试过在纸上记录做每件事的起止时间，但总觉得统计起来麻烦。但事实上，不做统计，根本没法发挥这个方法的真正效果。
+
+
+## Org-mode Agenda {#org-mode-agenda}
+
+为了使用 Org-mode 的日程表功能，首先需要把 `xxx.org` 加入到日程表文件中，例如
+`todo.org`, 在配置文件（ `~/.emacs` ）中写入:
+
+```sh
+(setq org-agenda-files (list "~/org/todo.org"))
+```
+
+再绑定Org-mode日程表的快捷键，
+
+```sh
+(global-set-key "\C-ca" 'org-agenda)
+```
+
+这样按 `Ctrl-c a a` 就可以查看 Org-mode 的周日程表了。
+
+之后就可以设置 TODO 项的 Schedule，该项在当日就会显示。
+
+这样一来，在每天开始浏览一下所有的 TODO 项目，将今天需要完成的任务 Schedule 一下，一天中剩下的时间只要看 Day Agenda 就行了。
+
+
+## 计时 {#计时}
+
+在 `todo.org` 中，移到一个条目上，按 `Ctrl-c Ctrl-x Ctrl-i` 即可对该条目开始计时，
+`Ctrl-c Ctrl-x Ctrl-o` 停止当前计时。如果在 Agenda 中，移到条目按 `I` 即可对该条目开始计时， `O` 即可停止计时。对于已经对这些基本功能熟练的用户，还可使用以下技巧：
+
+-   用 `global-set-key` 把 `org-clock-in`, `org-clock-out`, `org-clock-cancel` 这三个功能绑定到全局功能下，这样就不用专门跑到一个 Org-mode 的 buffer 里计时了。
+-   加前缀 `Ctrl-u` 再按 `Ctrl-c Ctrl-x Ctrl-i` ，可快速查看最近计时项目，进行快速计时。
+
+计时的重点是只计纯工作时间，只要没在工作就停止计时。对于不在电脑时候的工作，可以先在纸上记录，电脑在手时再补录到 todo.org 的相应时间记录中。
+
+可以在 `todo.org` 的头部加入<code> #+PROPERTY: CLOCK_INTO_DRAWER
+t</code>，这样，时间记录会放到一个名为 LOGBOOK 的抽屉中，平时看项目时并不展开，所以记录再多也不影响日常操作。
+
+
+## Tag {#tag}
+
+为了便于统计，使统计信息有意义，有必要对任务进行分类。可以使用 Tag 实现分类，在
+`todo.org` 的文件头部写下该文件支持的 Tag，如:
+
+```sh
+#+TAGS: { ACADEMIC(a) ENGLISH(e) SCHOOL(s) LEARNING(l) OUTPUT(p) OTHER(o) }
+```
+
+其中括号内代表简写快捷键，对每个 TODO 任务，按 `Ctrl-c Ctrl-q` 即可赋符 Tag，这样就完成了任务的分类。默认设置中，Tag 是可以继承的，即子标题自动包含父标题中含有的 Tag。
+
+
+## 统计 {#统计}
+
+Org mode can produce quite complex reports based on the time clocking
+information. Such a report is called a clock table, it is formatted as one or
+several Org tables.
+
+Use `org-clock-report` to insert or update a clock table. When called with a
+prefix argument, jump to the first clock table in the current document and
+update it.
+
+Here is an example of the frame for a clock table as it is inserted into the
+buffer by org-clock-report:
+
+```sh
+#+BEGIN: clocktable :maxlevel 2 :emphasize nil :scope file
+#+END: clocktable
+```
+
+The <code> #+BEGIN</code> line contains options to define the scope,
+structure, and formatting of the report.
+
+To get a clock summary of the current level 1 tree, for the current day, you
+could write:
+
+```sh
+#+BEGIN: clocktable :maxlevel 2 :block today :scope tree1 :link t
+#+END: clocktable
+```
+
+To get a clock summary of the current level 1 of the full current buffer, for
+the current day, with a specific tag 'example', you could write:
+
+```sh
+#+BEGIN: clocktable :scope file :maxlevel 2 :block today :tags t :match "example"
+#+END: clocktable
+```
+
+To get a clock summary of the current level 1 of the full current buffer, for
+the this week, with a specific tag 'example', you could write:
+
+```sh
+#+BEGIN: clocktable :scope file :maxlevel 2 :block thisweek :tags t :match "example"
+#+END: clocktable
+```
+
+Read more -> <https://orgmode.org/manual/The-clock-table.html>
+
+
+## Reference {#reference}
+
+-   [用 Org-mode 实践《奇特的一生》](https://web.archive.org/web/20130821065055/http://www.mastermindcn.com/2012/02/org%5Fmode%5Fquite%5Fa%5Flife/)
+-   [Org-mode 能否实现《奇特的一生》中时间统计功能](https://emacs-china.org/t/org-mode/12323/2)
+-   [Org-mode clock table by tag](https://stackoverflow.com/questions/38545767/org-mode-clock-table-by-tag)
+
+
+## Read more {#read-more}
+
+-   [Org Mode – Organize Your Life in Plain Text](https://news.ycombinator.com/item?id=23299993)
+-   [Tagging in Org – plus bonus code for timeclocks and tags!](https://sachachua.com/blog/2008/01/tagging-in-org-plus-bonus-code-for-timeclocks-and-tags/)
+-   [Time tracking with Org Mode and sum time per tag](http://mpas.github.io/posts/2021/03/16/2021-03-16-time-tracking-with-org-mode-and-sum-time-per-tag/)
