@@ -19,4 +19,12 @@ List the Emacs installation on Windows platform.
 * [[file:unix-utilities-on-windows.org][Unix Utilities]]
 * [[file:encryption.org][Encryption]]
 * Shell/Term
+* Debug
+If you do =M-x toggle-debug-on-error=, you should get a backtrace that might show
+where the error is occurring.
+* Read more
+- https://www.gnu.org/software/emacs/manual/html_mono/efaq-w32.html#Other-useful-ports
+- https://www.emacswiki.org/emacs/EmacsMsWindowsIntegration
+- http://ergoemacs.org/emacs/emacs_env_var_paths.html
+- https://emacs.stackexchange.com/questions/27326/gui-emacs-sets-the-exec-path-only-from-windows-environment-variable-but-not-from
 * Reference

@@ -1,7 +1,7 @@
 +++
 title = "Emacs on Windows"
 date = 2021-06-07T23:05:00+08:00
-lastmod = 2021-06-08T23:36:01+08:00
+lastmod = 2021-06-29T17:12:16+08:00
 draft = false
 +++
 
@@ -38,6 +38,20 @@ choco install emacs
 
 
 ## Shell/Term {#shell-term}
+
+
+## Debug {#debug}
+
+If you do `M-x toggle-debug-on-error`, you should get a backtrace that might show
+where the error is occurring.
+
+
+## Read more {#read-more}
+
+-   <https://www.gnu.org/software/emacs/manual/html%5Fmono/efaq-w32.html#Other-useful-ports>
+-   <https://www.emacswiki.org/emacs/EmacsMsWindowsIntegration>
+-   <http://ergoemacs.org/emacs/emacs%5Fenv%5Fvar%5Fpaths.html>
+-   <https://emacs.stackexchange.com/questions/27326/gui-emacs-sets-the-exec-path-only-from-windows-environment-variable-but-not-from>
 
 
 ## Reference {#reference}
