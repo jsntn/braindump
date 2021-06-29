@@ -1,7 +1,9 @@
 +++
 title = "Make Git Repository Smaller"
 date = 2021-06-28T00:17:00+08:00
-lastmod = 2021-06-28T15:20:44+08:00
+lastmod = 2021-06-30T00:01:22+08:00
+tags = ["git"]
+categories = ["Git"]
 draft = false
 +++
 
@@ -15,10 +17,11 @@ draft = false
 
 ## Solution {#solution}
 
-1.  Get the commits which you need to keep. Like,
+1.  Get the commits which you need to keep, like the `master` branch starting
+    from this year,
 
     ```sh
-    git log --oneline --since="2021-01-01" <branch name>
+    git log --oneline --since="2021-01-01" master
     ```
 
     Then you will get the commits like below,
@@ -36,18 +39,25 @@ draft = false
     commit `3f1d63a` from above):
 
     ```sh
-    git checkout --orphan temp 3f1d63a
+    git checkout --orphan 2021 3f1d63a
     git commit -m 'init commit'
     ```
 
-    Now the `temp` branch will only contains the commits changes starting from
+    Now the `2021` branch will only contains the commits changes starting from
     `3f1d63a`.
-3.  Remove the unused local branch
+3.  Rebase[^fn:1] all the last commits starting from `3f1d63a` on `master` branch,
+    reapply them on top of the `2021` branch, and push `2021`,
 
     ```sh
-    git branch -D <branch name>
+    git rebase --onto 2021 3f1d63a master
+    git push origin 2021
     ```
-4.  Cleanup unnecessary files and optimize the local repository
+4.  Remove the unused local branch, like `master` branch,
+
+    ```sh
+    git branch -D master
+    ```
+5.  Cleanup unnecessary files and optimize the local repository,
 
     ```sh
     git gc --prune=now --aggressive
@@ -56,7 +66,7 @@ draft = false
     The above command will remove all refs and inaccessible commits in the
     repository which are older than two weeks. `--aggressive` will help more time
     optimizing it.
-5.  Git has a feature called reflog that helps to track Git refs in the local
+6.  Git has a feature called reflog that helps to track Git refs in the local
     repo, it has an internal garbage collection mechanism to remove old refs in
     Git, but there is also a manual mechanism to remove old refs.
 
@@ -91,3 +101,5 @@ draft = false
 -   <https://coderwall.com/p/x3jmig/remove-all-your-local-git-branches-but-keep-master>
 -   <https://stackoverflow.com/questions/13064613/how-to-prune-local-tracking-branches-that-do-not-exist-on-remote-anymore>
 -   <https://superuser.com/questions/283309/how-to-delete-the-git-reference-refs-original-refs-heads-master>
+
+[^fn:1]: Refer to <https://git-scm.com/docs/git-rebase> for the `git rebase` - Reapply commits on top of another base tip.

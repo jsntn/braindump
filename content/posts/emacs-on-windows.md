@@ -1,7 +1,9 @@
 +++
 title = "Emacs on Windows"
 date = 2021-06-07T23:05:00+08:00
-lastmod = 2021-06-29T17:12:16+08:00
+lastmod = 2021-06-30T00:01:57+08:00
+tags = ["emacs"]
+categories = ["Emacs"]
 draft = false
 +++
 

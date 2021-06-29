@@ -2,8 +2,8 @@
 #+TITLE: Emacs on Windows
 #+DATE: <2021-06-07 Mon 23:05>
 #+HUGO_AUTO_SET_LASTMOD: t
-#+HUGO_TAGS: 
-#+HUGO_CATEGORIES: 
+#+HUGO_TAGS: emacs
+#+HUGO_CATEGORIES: Emacs
 #+HUGO_DRAFT: false
 * Installation
 List the Emacs installation on Windows platform.

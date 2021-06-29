@@ -2,8 +2,8 @@
 #+TITLE: Make Git Repository Smaller
 #+DATE: <2021-06-28 Mon 00:17>
 #+HUGO_AUTO_SET_LASTMOD: t
-#+HUGO_TAGS: 
-#+HUGO_CATEGORIES: 
+#+HUGO_TAGS: git
+#+HUGO_CATEGORIES: Git
 #+HUGO_DRAFT: false
 * Background
 #+BEGIN_QUOTE
@@ -13,10 +13,11 @@
   to remove older commits to slim down my repository size?
 #+END_QUOTE
 * Solution
-1. Get the commits which you need to keep. Like,
+1. Get the commits which you need to keep, like the =master= branch starting
+   from this year,
 
    #+BEGIN_SRC sh
-     git log --oneline --since="2021-01-01" <branch name>
+     git log --oneline --since="2021-01-01" master
    #+END_SRC
 
    Then you will get the commits like below,
@@ -34,18 +35,24 @@
    commit =3f1d63a= from above):
 
    #+BEGIN_SRC sh
-     git checkout --orphan temp 3f1d63a
+     git checkout --orphan 2021 3f1d63a
      git commit -m 'init commit'
    #+END_SRC
 
-   Now the =temp= branch will only contains the commits changes starting from
+   Now the =2021= branch will only contains the commits changes starting from
    =3f1d63a=.
-3. Remove the unused local branch
+3. Rebase[fn:git-rebase] all the last commits starting from =3f1d63a= on =master= branch,
+   reapply them on top of the =2021= branch, and push =2021=,
+   #+BEGIN_SRC sh
+     git rebase --onto 2021 3f1d63a master
+     git push origin 2021
+   #+END_SRC
+4. Remove the unused local branch, like =master= branch,
 
    #+BEGIN_SRC sh
-     git branch -D <branch name>
+     git branch -D master
    #+END_SRC
-4. Cleanup unnecessary files and optimize the local repository
+5. Cleanup unnecessary files and optimize the local repository,
 
    #+BEGIN_SRC sh
      git gc --prune=now --aggressive
@@ -54,7 +61,7 @@
    The above command will remove all refs and inaccessible commits in the
    repository which are older than two weeks. =--aggressive= will help more time
    optimizing it.
-5. Git has a feature called reflog that helps to track Git refs in the local
+6. Git has a feature called reflog that helps to track Git refs in the local
    repo, it has an internal garbage collection mechanism to remove old refs in
    Git, but there is also a manual mechanism to remove old refs.
 
@@ -64,6 +71,8 @@
 
    The above command will remove all refs that are older than one month, you can
    mention whatever value you feel safe.
+[fn:git-rebase] Refer to https://git-scm.com/docs/git-rebase for the =git
+rebase= - Reapply commits on top of another base tip.
 * Reference
 - https://stackoverflow.com/questions/47609827/how-to-make-my-git-repo-smaller
 - https://stackoverflow.com/questions/2116778/reduce-git-repository-size

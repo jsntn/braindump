@@ -2,7 +2,7 @@
 #+TITLE: Encryption
 #+DATE: <2021-05-03 Mon 17:24>
 #+HUGO_AUTO_SET_LASTMOD: t
-#+HUGO_TAGS: 
+#+HUGO_TAGS: encryption
 #+HUGO_CATEGORIES: 
 #+HUGO_DRAFT: false
 Encryption is the method by which information is converted into secret code that

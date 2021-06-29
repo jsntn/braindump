@@ -2,8 +2,8 @@
 #+TITLE: Unix Utilities on Windows
 #+DATE: <2021-06-05 Sat 00:33>
 #+HUGO_AUTO_SET_LASTMOD: t
-#+HUGO_TAGS: 
-#+HUGO_CATEGORIES: 
+#+HUGO_TAGS: unix
+#+HUGO_CATEGORIES: Linux
 #+HUGO_DRAFT: false
 * Pacage Manager
 Install Chocolatey on Windows by following the method from https://chocolatey.org/install

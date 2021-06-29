@@ -1,7 +1,9 @@
 +++
 title = "Unix Utilities on Windows"
 date = 2021-06-05T00:33:00+08:00
-lastmod = 2021-06-07T22:57:53+08:00
+lastmod = 2021-06-30T00:02:51+08:00
+tags = ["unix"]
+categories = ["Linux"]
 draft = false
 +++
 
