@@ -1,0 +1,45 @@
+#+HUGO_BASE_DIR: ../
+#+TITLE: Org-mode Repeated Tasks
+#+DATE: <2021-06-29 Tue 12:43>
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_TAGS: 
+#+HUGO_CATEGORIES: 
+#+HUGO_DRAFT: false
+* Repeated tasks
+Some tasks need to be repeated again and again, this is called 'Repeated Tasks'
+here.
+* The =repeater=
+Org mode helps to organize repeated tasks using a so-called repeater in a
+'DEADLINE', 'SCHEDULED', or plain timestamps. In the following example:
+
+#+BEGIN_SRC sh
+  ** TODO Pay the rent
+     DEADLINE: <2005-10-01 Sat +1m>
+#+END_SRC
+
+the =+1m= is a repeater; the intended interpretation is that the task has a
+deadline on '<2005-10-01>' and repeats itself every (one) month starting from
+that time. You can use yearly, monthly, weekly, daily and hourly repeat cookies
+by using the =y=, =m=, =w=, =d= and =h= letters. If you need both a repeater and
+a special warning period in a deadline entry, the repeater should come first and
+the warning period last,
+
+#+BEGIN_SRC sh
+  DEADLINE: <2005-10-01 Sat +1m -3d>
+#+END_SRC
+
+| Repeater | Interpretation                                                                                                                                                                                    |
+|----------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| =.+xy=   | repeat in x h/d/w/m/y from the last time I marked it done                                                                                                                                         |
+| =++xy=   | repeat in at least x h/d/w/m/y from the last time I marked it done, And keep it on the same day of the week move the due date into the future by increments of h/d/w/m/y. [fn:plus-plus-repeater] |
+
+[fn:plus-plus-repeater] If the due date, after being moved forward x h/d/w/m/y
+is still in the past, adjust it by however many h/d/w/m/y needed to get it into
+the future. For the w, the day of the week is kept constant. ([[https://www.reddit.com/r/orgmode/comments/hr2ytg/difference_between_the_repeaters_orgzly/fy2izqx?utm_source=share&utm_medium=web2x&context=3][via]])
+* Tracking your habits
+-> [[file:use-org-mode-to-track-your-habits.org][Use Org-mode to track your habits]]
+* Reference
+- https://orgmode.org/manual/Repeated-tasks.html
+* Read more
+- https://orgmode.org/manual/Tracking-your-habits.html
+- https://sspai.com/post/61282
