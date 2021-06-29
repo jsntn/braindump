@@ -40,6 +40,7 @@ the future. For the w, the day of the week is kept constant. ([[https://www.redd
 -> [[file:use-org-mode-to-track-your-habits.org][Use Org-mode to track your habits]]
 * Reference
 - https://orgmode.org/manual/Repeated-tasks.html
+- https://victor72.github.io/blog/2016/06/20/with-org-page-manage-lives/
 * Read more
 - https://orgmode.org/manual/Tracking-your-habits.html
 - https://sspai.com/post/61282

@@ -1,7 +1,7 @@
 +++
 title = "Org-mode Repeated Tasks"
 date = 2021-06-29T12:43:00+08:00
-lastmod = 2021-06-29T14:36:44+08:00
+lastmod = 2021-06-29T14:46:58+08:00
 draft = false
 +++
 
@@ -46,6 +46,7 @@ DEADLINE: <2005-10-01 Sat +1m -3d>
 ## Reference {#reference}
 
 -   <https://orgmode.org/manual/Repeated-tasks.html>
+-   <https://victor72.github.io/blog/2016/06/20/with-org-page-manage-lives/>
 
 
 ## Read more {#read-more}
