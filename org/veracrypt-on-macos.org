@@ -22,6 +22,12 @@ You can then invoke it to get help with (the =-t= is for text-only mode):
   PATH="$HOME/bin:$PATH" ; # <<-- if not already on your search path
   veracrypt -t -h
 #+END_SRC
+
+Start using it, like:
+
+#+BEGIN_SRC sh
+  veracrypt -m ro -k <keyfile> <volume> # mount the volume with keyfile in read-only mode
+#+END_SRC
 * Reference
 - https://apple.stackexchange.com/questions/230520/how-to-execute-veracrypt-on-the-command-line
 - https://sourceforge.net/p/veracrypt/discussion/technical/thread/5dfac090/

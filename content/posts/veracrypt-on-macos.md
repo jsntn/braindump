@@ -1,7 +1,7 @@
 +++
 title = "VeraCrypt on MacOS"
 date = 2021-06-09T17:33:00+08:00
-lastmod = 2021-06-09T17:38:16+08:00
+lastmod = 2021-07-01T17:48:30+08:00
 draft = false
 +++
 
@@ -22,6 +22,12 @@ You can then invoke it to get help with (the `-t` is for text-only mode):
 ```sh
 PATH="$HOME/bin:$PATH" ; # <<-- if not already on your search path
 veracrypt -t -h
+```
+
+Start using it, like:
+
+```sh
+veracrypt -m ro -k <keyfile> <volume> # mount the volume with keyfile in read-only mode
 ```
 
 
