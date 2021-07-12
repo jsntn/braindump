@@ -1,0 +1,73 @@
++++
+title = "What is Spike?"
+date = 2021-07-12T15:06:00+08:00
+lastmod = 2021-07-12T15:18:25+08:00
+draft = false
++++
+
+## What is Spike? {#what-is-spike}
+
+A spike is a product development method originating from Extreme Programming
+that uses the simplest possible program to explore potential solutions. It is
+used to determine how much work will be required to solve or work around a
+software issue. Typically, a "spike test" involves gathering additional
+information or testing for easily reproduced edge cases. The term is used in
+agile software development approaches like Scrum or Extreme Programming.
+
+It is a task aimed at answering a question or gathering information, rather than
+at producing shippable product. Sometimes a user story is generated that cannot
+be well estimated until the development team does some actual work to resolve a
+technical question or a design problem. The solution is to create a "spike",
+which is some work whose purpose is to provide the answer or solution.[^fn:1]
+
+
+## Uses {#uses}
+
+A spike in a sprint can be used in a number of ways:
+
+-   As a way to familiarize the team with new hardware or software
+-   To analyze a problem thoroughly and assist in properly dividing work among
+    separate team members
+-   Spikes tests can also be used to mitigate future risk, and may uncover
+    additional issues that have escaped notice
+
+A distinction can be made between technical spikes and functional spikes. The
+technical spike is used more often for evaluating the impact new technology has
+on the current implementation. A functional spike is used to determine the
+interaction with a new feature or implementation.
+
+To track such work items, in a ticketing system, a new user story can be set up
+for each spike, for organization purposes.
+
+Following a spike, the results (a new design, a refined workflow, etc.) are
+shared and discussed with the team.
+
+
+## Read more {#read-more}
+
+In Scrum, 3 terms are usually used(or one of them):
+
+-   Spike
+
+    – a quick and dirty implementation, designed to be thrown away, to gain
+    knowledge
+
+    – indicator: unable to estimate a user story effectively
+-   Research
+
+    – broad, foundational knowledge-gaining to decide what to spike or give the
+    ability to estimate
+
+    – indicator: don’t know a potential solution
+-   Tracer Bullet
+
+    – very narrow implementation in production quality of an epic/large user story
+
+    – indicator: user story is too large in estimation
+
+
+## Reference {#reference}
+
+-   <https://en.wikipedia.org/wiki/Spike%5F(software%5Fdevelopment)>
+
+[^fn:1]: 以回答问题或收集信息为目的的任务，而不是生产非专业产品的任务。有时编写 User Story 时，无法很好地对其进行估算 User Story Point，直到开发团队做一些实际工作来解决技术问题或设计问题为止。解决这一问题的方法是创建一个 “Spike”，这代表要做一些工作，其目的是提供解决问题的方法或者寻找解决问题的答案。
