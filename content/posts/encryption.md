@@ -1,7 +1,7 @@
 +++
 title = "Encryption"
 date = 2021-05-03T17:24:00+08:00
-lastmod = 2021-06-30T00:02:22+08:00
+lastmod = 2021-07-13T14:23:16+08:00
 tags = ["encryption"]
 draft = false
 +++
@@ -33,6 +33,7 @@ KeePass <https://haikebang.com/passphrase.html>
 -   [TrueCrypt is not secure](https://jsntn.com/software/2014/06/01/truecrypt.html)
 -   [EDS](https://cn.apkjam.com/eds.html)
 -   [VeraCrypt on MacOS]({{< relref "veracrypt-on-macos" >}})
+-   [Windows VeraCrypt Volume Launcher](https://github.com/jsntn/windows-veracrypt-volume-launcher)
 
 
 ## Read More {#read-more}

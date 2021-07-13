@@ -20,5 +20,6 @@ https://cn.apkjam.com/60s/saferoom.html
 - [[https://jsntn.com/software/2014/06/01/truecrypt.html][TrueCrypt is not secure]]
 - [[https://cn.apkjam.com/eds.html][EDS]]
 - [[file:veracrypt-on-macos.org][VeraCrypt on MacOS]]
+- [[https://github.com/jsntn/windows-veracrypt-volume-launcher][Windows VeraCrypt Volume Launcher]]
 ** Read More
 https://haikebang.com/secure-portable.html
