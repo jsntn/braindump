@@ -1,7 +1,7 @@
 +++
 title = "DR"
 date = 2021-05-15T17:02:00+08:00
-lastmod = 2021-06-11T12:00:32+08:00
+lastmod = 2021-07-14T16:16:44+08:00
 draft = false
 +++
 
@@ -74,10 +74,15 @@ Programmer.
 ### The solution should be improved over time. {#the-solution-should-be-improved-over-time-dot}
 
 
-### The solution should be clear as much as possible. {#the-solution-should-be-clear-as-much-as-possible-dot}
+### The solution should be as clear as possible. {#the-solution-should-be-as-clear-as-possible-dot}
 
 
 ### "A picture is worth a thousand words." {#a-picture-is-worth-a-thousand-words-dot}
+
+
+### Read more {#read-more}
+
+-> [What is good product? - Allen Zhang 2019]({{< relref "allen-zhang-2019" >}})
 
 
 ## Timeplan/GTD {#timeplan-gtd}

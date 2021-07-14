@@ -64,8 +64,10 @@ Programmer.
 ** Design is not coding, coding is not design.
 ** Be down-to-earth.
 ** The solution should be improved over time.
-** The solution should be clear as much as possible.
+** The solution should be as clear as possible.
 ** "A picture is worth a thousand words."
+** Read more
+-> [[file:allen-zhang-2019.org][What is good product? - Allen Zhang 2019]]
 * Timeplan/GTD
 Time, Scope and Cost
 * Sprint/Milestone
