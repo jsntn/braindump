@@ -6,4 +6,4 @@
 #+HUGO_CATEGORIES: 
 #+HUGO_DRAFT: false
 * Read more
-[[https://jason.giveupenglish.com/brain/2014/04/22/memory-palace.html][Memory Palace]]
+-> [[https://jason.giveupenglish.com/brain/2014/04/22/memory-palace.html][Memory Palace]]
