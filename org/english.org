@@ -7,6 +7,7 @@
 #+HUGO_DRAFT: false
 ⊕ [[https://giveupenglish.com]]
 * Links
-- [[https://jason.giveupenglish.com/persistence/2015/03/08/websites.html][那些值得推荐的外语学习网站]]
+- [[https://github.com/giveupenglishOrg/lyce-digitization][The LYCE Digitization Project]]
 - [[https://jason.giveupenglish.com/language/youtube.html][YouTube 上面的一些值得推荐的英语学习频道]]
+- [[https://jason.giveupenglish.com/persistence/2015/03/08/websites.html][那些值得推荐的外语学习网站]]
 - [[https://jason.giveupenglish.com/language/resources.html][一些值得推荐的英语学习资源]]
