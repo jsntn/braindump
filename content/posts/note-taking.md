@@ -1,7 +1,7 @@
 +++
 title = "Note-taking"
 date = 2021-06-11T14:12:00+08:00
-lastmod = 2021-06-11T16:04:25+08:00
+lastmod = 2021-07-17T21:51:39+08:00
 draft = false
 +++
 
@@ -32,6 +32,7 @@ draft = false
 Read more,
 
 -   [Use Org-roam to manage project in an effective way]({{< relref "org-roam-and-project" >}})
+-   [Zettelkasten Note-taking Method]({{< relref "zettelkasten" >}})
 
 
 ## Read More {#read-more}

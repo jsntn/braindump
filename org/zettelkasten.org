@@ -1,5 +1,5 @@
 #+HUGO_BASE_DIR: ../
-#+TITLE: Zettelkasten Note-Taking Method
+#+TITLE: Zettelkasten Note-taking Method
 #+DATE: <2021-06-11 Fri 16:43>
 #+HUGO_AUTO_SET_LASTMOD: t
 #+HUGO_TAGS: 

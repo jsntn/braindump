@@ -1,7 +1,7 @@
 +++
-title = "Zettelkasten Note-Taking Method"
+title = "Zettelkasten Note-taking Method"
 date = 2021-06-11T16:43:00+08:00
-lastmod = 2021-06-11T16:50:09+08:00
+lastmod = 2021-07-17T21:51:40+08:00
 draft = false
 +++
 

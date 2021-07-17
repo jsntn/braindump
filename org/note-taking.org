@@ -27,6 +27,7 @@
 
 Read more,
 - [[file:org-roam-and-project.org][Use Org-roam to manage project in an effective way]]
+- [[file:zettelkasten.org][Zettelkasten Note-taking Method]]
 * Read More
 - [[https://haikebang.org/t/topic/82][How to Take Smart Notes?]]
 * Discuss Community
