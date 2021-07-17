@@ -19,6 +19,8 @@
   atomic idea that makes sense by itself, and also in combination with other
   ideas (similar to how our brain works, but with a better memory).
 #+END_QUOTE
+* Book
+-> [[file:how-to-take-smart-notes.org][读《卡片笔记写作法》]]
 * Reference
 - https://zettelkasten.de/introduction/
 - https://www.youtube.com/watch?v=rOSZOCoqOo8

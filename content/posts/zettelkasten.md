@@ -1,7 +1,7 @@
 +++
 title = "Zettelkasten Note-taking Method"
 date = 2021-06-11T16:43:00+08:00
-lastmod = 2021-07-17T21:51:40+08:00
+lastmod = 2021-07-17T22:06:53+08:00
 draft = false
 +++
 
@@ -17,6 +17,11 @@ draft = false
 > containing many slips of paper (Ahrens, 2017). Each slip represents a single,
 > atomic idea that makes sense by itself, and also in combination with other
 > ideas (similar to how our brain works, but with a better memory).
+
+
+## Book {#book}
+
+-> [读《卡片笔记写作法》]({{< relref "how-to-take-smart-notes" >}})
 
 
 ## Reference {#reference}
