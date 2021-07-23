@@ -22,6 +22,8 @@
 * Book
 -> [[file:how-to-take-smart-notes.org][读《卡片笔记写作法》]]
 * Reference
+- https://www.youtube.com/watch?v=4veq2i3teVk&ab_channel=BielefeldUniversity
+- https://www.youtube.com/watch?v=Pp3NMB9G7yY&ab_channel=CeheparCheng
 - https://zettelkasten.de/introduction/
 - https://www.youtube.com/watch?v=rOSZOCoqOo8
 - https://medium.com/@rebeccawilliams9941/the-zettelkasten-method-examples-to-help-you-get-started-8f8a44fa9ae6

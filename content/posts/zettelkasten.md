@@ -1,7 +1,7 @@
 +++
 title = "Zettelkasten Note-taking Method"
 date = 2021-06-11T16:43:00+08:00
-lastmod = 2021-07-17T22:06:53+08:00
+lastmod = 2021-07-23T16:48:29+08:00
 draft = false
 +++
 
@@ -26,6 +26,8 @@ draft = false
 
 ## Reference {#reference}
 
+-   <https://www.youtube.com/watch?v=4veq2i3teVk&ab%5Fchannel=BielefeldUniversity>
+-   <https://www.youtube.com/watch?v=Pp3NMB9G7yY&ab%5Fchannel=CeheparCheng>
 -   <https://zettelkasten.de/introduction/>
 -   <https://www.youtube.com/watch?v=rOSZOCoqOo8>
 -   <https://medium.com/@rebeccawilliams9941/the-zettelkasten-method-examples-to-help-you-get-started-8f8a44fa9ae6>
