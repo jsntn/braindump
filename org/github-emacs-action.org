@@ -13,6 +13,10 @@ This is a GitHub Action example to set up Emacs with your packages.
 
 -> https://github.com/jsntn/emacs-actions/tree/ox-publish
 
+* The =org-html-export-to-html= case
+
+-> https://github.com/jsntn/emacs-actions/tree/org-to-html
+
 * Demo
 
 - https://github.com/jsntn/note.jsntn.com
