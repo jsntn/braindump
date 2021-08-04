@@ -1,7 +1,7 @@
 +++
 title = "GitHub Emacs Action"
 date = 2021-08-04T18:05:00+08:00
-lastmod = 2021-08-05T00:20:28+08:00
+lastmod = 2021-08-05T01:10:42+08:00
 draft = false
 +++
 
@@ -24,8 +24,4 @@ This is a GitHub Action example to set up Emacs with your packages.
 
 -   <https://github.com/jsntn/note.jsntn.com>
 -   <https://github.com/giveupenglishOrg/sse.lyce.info>
-
-
-## <span class="org-todo todo TODO">TODO</span> To be implemented {#to-be-implemented}
-
 -   <https://github.com/blurtOut/bo1>
