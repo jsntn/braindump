@@ -1,0 +1,23 @@
+#+HUGO_BASE_DIR: ../
+#+TITLE: GitHub Emacs Action
+#+DATE: <2021-08-04 Wed 18:05>
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_TAGS: 
+#+HUGO_CATEGORIES: 
+#+HUGO_DRAFT: false
+This is a GitHub Action example to set up Emacs with your packages.
+
+-> https://github.com/jsntn/emacs-actions
+
+* The =ox-publish= case
+
+-> https://github.com/jsntn/emacs-actions/tree/ox-publish
+
+* Demo
+
+- https://github.com/jsntn/note.jsntn.com
+
+* TODO To be implemented
+
+- https://github.com/giveupenglishOrg/sse.lyce.info
+- https://github.com/blurtOut/bo1
