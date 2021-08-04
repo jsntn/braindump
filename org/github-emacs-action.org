@@ -16,8 +16,8 @@ This is a GitHub Action example to set up Emacs with your packages.
 * Demo
 
 - https://github.com/jsntn/note.jsntn.com
+- https://github.com/giveupenglishOrg/sse.lyce.info
 
 * TODO To be implemented
 
-- https://github.com/giveupenglishOrg/sse.lyce.info
 - https://github.com/blurtOut/bo1
