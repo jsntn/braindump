@@ -1,0 +1,25 @@
+#+HUGO_BASE_DIR: ../
+#+TITLE: Nix
+#+DATE: <2021-08-05 Thu 09:36>
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_TAGS: 
+#+HUGO_CATEGORIES: 
+#+HUGO_DRAFT: false
+Nix is a tool that takes a unique approach to package management and system
+configuration.
+
+-> https://nixos.org
+
+* Reproducible
+Nix builds packages in isolation from each other. This ensures that they are
+reproducible and don't have undeclared dependencies, so if a package works on
+one machine, it will also work on another.
+
+* Declarative
+Nix makes it trivial to share development and build environments for your
+projects, regardless of what programming languages and tools you’re using.
+
+* Reliable
+Nix ensures that installing or upgrading one package cannot break other
+packages. It allows you to roll back to previous versions, and ensures that no
+package is in an inconsistent state during an upgrade.
