@@ -1,7 +1,7 @@
 +++
 title = "Encryption"
 date = 2021-05-03T17:24:00+08:00
-lastmod = 2021-07-13T14:23:16+08:00
+lastmod = 2021-08-16T16:35:25+08:00
 tags = ["encryption"]
 draft = false
 +++
@@ -14,8 +14,20 @@ as plaintext, and encrypted data is called ciphertext.
 
 ## Cryptomator {#cryptomator}
 
-<https://cn.apkjam.com/cryptomator.html><br />
-<https://jsntn.com/software/portable-cryptomator.html>
+-   <https://cn.apkjam.com/cryptomator.html>
+-   <https://jsntn.com/software/portable-cryptomator.html>
+
+
+### Mountain Duck {#mountain-duck}
+
+Mountain Duck lets you mount server and cloud storage as a disk in Finder on
+macOS and the File Explorer on Windows. Open remote files with any application
+and work like on a local volume.
+
+It supports the Cryptomator Vaults - Transparent client-side encryption using
+Cryptomator interoperable vaults.
+
+-> <https://mountainduck.io>
 
 
 ## Password {#password}

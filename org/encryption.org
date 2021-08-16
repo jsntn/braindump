@@ -9,17 +9,26 @@ Encryption is the method by which information is converted into secret code that
 hides the information's true meaning. The science of encrypting and decrypting
 information is called cryptography. In computing, unencrypted data is also known
 as plaintext, and encrypted data is called ciphertext.
-** Cryptomator
-https://cn.apkjam.com/cryptomator.html\\
-https://jsntn.com/software/portable-cryptomator.html
-** Password
+* Cryptomator
+- https://cn.apkjam.com/cryptomator.html
+- https://jsntn.com/software/portable-cryptomator.html
+** Mountain Duck
+Mountain Duck lets you mount server and cloud storage as a disk in Finder on
+macOS and the File Explorer on Windows. Open remote files with any application
+and work like on a local volume.
+
+It supports the Cryptomator Vaults - Transparent client-side encryption using
+Cryptomator interoperable vaults.
+
+-> https://mountainduck.io
+* Password
 KeePass https://haikebang.com/passphrase.html
-** Saferoom
+* Saferoom
 https://cn.apkjam.com/60s/saferoom.html
-** TrueCrypt/VeraCrypt/EDS/CryptoDisk
+* TrueCrypt/VeraCrypt/EDS/CryptoDisk
 - [[https://jsntn.com/software/2014/06/01/truecrypt.html][TrueCrypt is not secure]]
 - [[https://cn.apkjam.com/eds.html][EDS]]
 - [[file:veracrypt-on-macos.org][VeraCrypt on MacOS]]
 - [[https://github.com/jsntn/windows-veracrypt-volume-launcher][Windows VeraCrypt Volume Launcher]]
-** Read More
+* Read More
 https://haikebang.com/secure-portable.html
