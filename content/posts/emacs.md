@@ -1,7 +1,7 @@
 +++
 title = "Emacs Stuff"
 date = 2021-08-16T16:40:00+08:00
-lastmod = 2021-08-16T16:52:47+08:00
+lastmod = 2021-08-19T16:47:20+08:00
 draft = false
 +++
 
@@ -26,4 +26,5 @@ draft = false
 
 -   [Emacs on Windows](https://jason.haikebang.com/posts/emacs-on-windows/)
 -   [Emacs on Arch Linux](https://jason.haikebang.com/posts/emacs-on-arch-linux/)
+-   [Planet Emacslife](https://planet.emacslife.com)
 -   [Use Org-mode to track your habits](https://jason.haikebang.com/posts/use-org-mode-to-track-your-habits/)

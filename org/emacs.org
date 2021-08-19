@@ -16,4 +16,5 @@
 * Read more
 - [[https://jason.haikebang.com/posts/emacs-on-windows/][Emacs on Windows]]
 - [[https://jason.haikebang.com/posts/emacs-on-arch-linux/][Emacs on Arch Linux]]
+- [[https://planet.emacslife.com][Planet Emacslife]]
 - [[https://jason.haikebang.com/posts/use-org-mode-to-track-your-habits/][Use Org-mode to track your habits]]
