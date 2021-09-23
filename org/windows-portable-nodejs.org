@@ -1,0 +1,18 @@
+#+HUGO_BASE_DIR: ../
+#+TITLE: Portable Node.js Installation on Windows
+#+DATE: <2021-09-23 Thu 21:13>
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_TAGS: 
+#+HUGO_CATEGORIES: 
+#+HUGO_DRAFT: false
+* Instruction
+1. Download portable Node.js Windows binary from [[https://nodejs.org/en/download/current/][here]].
+2. Extract =node.exe= to specific path, like =C:\nodejs\=.
+3. Download npm from [[https://nodejs.org/dist/npm/][here]].
+4. Extract npm files to the portable Node.js path above. E.g. =npm.cmd= and
+   =node_modules= folder in =npm-1.4.12.zip=
+5. Update your =PATH= if necessary.
+6. Done.
+* Reference
+- https://smlpoints.com/guide-install-node-js-portable-and-git-bash.html
+- https://www.youtube.com/watch?v=N8cFnUruUEo&ab_channel=StoyanCheresharov

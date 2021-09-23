@@ -1,7 +1,7 @@
 +++
 title = "Emacs on Windows"
 date = 2021-06-07T23:05:00+08:00
-lastmod = 2021-06-30T00:01:57+08:00
+lastmod = 2021-09-23T23:52:14+08:00
 tags = ["emacs"]
 categories = ["Emacs"]
 draft = false
@@ -34,6 +34,34 @@ choco install emacs
 
 
 ## [Unix Utilities]({{< relref "unix-utilities-on-windows" >}}) {#unix-utilities--unix-utilities-on-windows-dot-md}
+
+
+## Formatter {#formatter}
+
+Right now, I'm using Steve Purcell's [reformatter](https://github.com/purcell/emacs-reformatter) with [Prettier](https://prettier.io).
+
+
+### Some Options {#some-options}
+
+-   <https://github.com/purcell/emacs-reformatter>
+-   <https://github.com/lassik/emacs-format-all-the-code>
+-   Based on Prettier
+    -   <https://github.com/prettier/prettier-emacs>
+    -   <https://github.com/jscheid/prettier.el>
+    -   <https://github.com/raxod502/apheleia>
+
+
+### Install Prettier {#install-prettier}
+
+1.  Follow [this guide]({{< relref "windows-portable-nodejs" >}}) to install portable Node.js
+2.  Globally install Prettier using `npm install -g prettier`
+
+
+### Read More {#read-more}
+
+-   <https://emacs-china.org/t/reformatter/8239>
+-   <https://erick.navarro.io/blog/creating-an-emacs-formatter-the-easy-way/>
+-   <https://levelup.gitconnected.com/how-to-format-all-files-in-a-directory-with-prettier-5f0ff5f4ffb2>
 
 
 ## [Encryption]({{< relref "encryption" >}}) {#encryption--encryption-dot-md}

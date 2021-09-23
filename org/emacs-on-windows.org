@@ -17,6 +17,22 @@ List the Emacs installation on Windows platform.
   choco install emacs
 #+END_SRC
 * [[file:unix-utilities-on-windows.org][Unix Utilities]]
+* Formatter
+Right now, I'm using Steve Purcell's [[https://github.com/purcell/emacs-reformatter][reformatter]] with [[https://prettier.io][Prettier]].
+** Some Options
+- https://github.com/purcell/emacs-reformatter
+- https://github.com/lassik/emacs-format-all-the-code
+- Based on Prettier
+  - https://github.com/prettier/prettier-emacs
+  - https://github.com/jscheid/prettier.el
+  - https://github.com/raxod502/apheleia
+** Install Prettier
+1. Follow [[./windows-portable-nodejs.org][this guide]] to install portable Node.js
+2. Globally install Prettier using =npm install -g prettier=
+** Read More
+- https://emacs-china.org/t/reformatter/8239
+- https://erick.navarro.io/blog/creating-an-emacs-formatter-the-easy-way/
+- https://levelup.gitconnected.com/how-to-format-all-files-in-a-directory-with-prettier-5f0ff5f4ffb2
 * [[file:encryption.org][Encryption]]
 * Shell/Term
 * Debug
