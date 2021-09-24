@@ -10,7 +10,7 @@
 2. Extract =node.exe= to specific path, like =C:\nodejs\=.
 3. Download npm from [[https://nodejs.org/dist/npm/][here]].
 4. Extract npm files to the portable Node.js path above. E.g. =npm.cmd= and
-   =node_modules= folder in =npm-1.4.12.zip=
+   =node_modules= folder from =npm-1.4.12.zip= to =C:\nodejs\=.
 5. Update your =PATH= if necessary.
 6. Done.
 * Reference
