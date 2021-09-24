@@ -18,7 +18,9 @@ List the Emacs installation on Windows platform.
 #+END_SRC
 * [[file:unix-utilities-on-windows.org][Unix Utilities]]
 * Formatter
-Right now, I'm using Steve Purcell's [[https://github.com/purcell/emacs-reformatter][reformatter]] with [[https://prettier.io][Prettier]].
+Right now, I'm using Steve Purcell's [[https://github.com/purcell/emacs-reformatter][reformatter]] with [[https://prettier.io][Prettier]] and [[https://github.com/mvdan/sh][shfmt]].
+- Prettier: YAML, CSS/Less/SCSS
+- shfmt: Shell script
 ** Some Options
 - https://github.com/purcell/emacs-reformatter
 - https://github.com/lassik/emacs-format-all-the-code

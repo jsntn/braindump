@@ -1,7 +1,7 @@
 +++
 title = "Emacs on Windows"
 date = 2021-06-07T23:05:00+08:00
-lastmod = 2021-09-23T23:52:14+08:00
+lastmod = 2021-09-25T00:30:12+08:00
 tags = ["emacs"]
 categories = ["Emacs"]
 draft = false
@@ -38,7 +38,10 @@ choco install emacs
 
 ## Formatter {#formatter}
 
-Right now, I'm using Steve Purcell's [reformatter](https://github.com/purcell/emacs-reformatter) with [Prettier](https://prettier.io).
+Right now, I'm using Steve Purcell's [reformatter](https://github.com/purcell/emacs-reformatter) with [Prettier](https://prettier.io) and [shfmt](https://github.com/mvdan/sh).
+
+-   Prettier: YAML, CSS/Less/SCSS
+-   shfmt: Shell script
 
 
 ### Some Options {#some-options}
