@@ -1,0 +1,30 @@
+#+HUGO_BASE_DIR: ../
+#+TITLE: Start Using Scoop
+#+DATE: <2021-12-01 Wed 16:11>
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_TAGS: 
+#+HUGO_CATEGORIES: 
+#+HUGO_DRAFT: false
+Scoop is a command-line installer for Windows platform.
+
+-> https://scoop.sh
+
+* Installation
+Follow this [[https://github.com/ScoopInstaller/Scoop/wiki/Quick-Start][Quick Start]] for the installation and basic usage.
+
+* Example
+To install [[https://prettier.io/docs/en/install.html][Prettier]], we should have =nodejs= installed first,
+
+#+BEGIN_SRC powershell
+scoop install nodejs
+#+END_SRC
+
+After that, install Prettier with the command below,
+
+#+BEGIN_SRC powershell
+npm install -g prettier
+#+END_SRC
+
+* Read more
+- https://github.com/ScoopInstaller
+- https://sspai.com/post/52710
