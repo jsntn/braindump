@@ -26,5 +26,6 @@ npm install -g prettier
 #+END_SRC
 
 * Read more
+- https://github.com/ScoopInstaller/Scoop/wiki/Using-Scoop-behind-a-proxy
 - https://github.com/ScoopInstaller
 - https://sspai.com/post/52710

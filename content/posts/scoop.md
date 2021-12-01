@@ -1,7 +1,7 @@
 +++
 title = "Start Using Scoop"
 date = 2021-12-01T16:11:00+08:00
-lastmod = 2021-12-01T16:32:57+08:00
+lastmod = 2021-12-01T20:42:28+08:00
 draft = false
 +++
 
@@ -32,5 +32,6 @@ npm install -g prettier
 
 ## Read more {#read-more}
 
+-   <https://github.com/ScoopInstaller/Scoop/wiki/Using-Scoop-behind-a-proxy>
 -   <https://github.com/ScoopInstaller>
 -   <https://sspai.com/post/52710>
