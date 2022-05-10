@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       7E9E8596-5111-4DA1-962B-B19FDAA09562
+:END:
 #+HUGO_BASE_DIR: ../
 #+TITLE: Zettelkasten Note-taking Method
 #+DATE: <2021-06-11 Fri 16:43>
@@ -20,7 +23,7 @@
   ideas (similar to how our brain works, but with a better memory).
 #+END_QUOTE
 * Book
--> [[file:how-to-take-smart-notes.org][读《卡片笔记写作法》]]
+-> [[id:3A52CA13-DF1B-4D59-9D2A-13443460A43A][读《卡片笔记写作法》]]
 * Reference
 - https://www.youtube.com/watch?v=4veq2i3teVk&ab_channel=BielefeldUniversity
 - https://www.youtube.com/watch?v=Pp3NMB9G7yY&ab_channel=CeheparCheng

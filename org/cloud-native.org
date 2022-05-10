@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       56512C1A-C615-4C7A-8A57-4134C3661DF5
+:END:
 #+HUGO_BASE_DIR: ../
 #+TITLE: Cloud Native Definition
 #+DATE: <2021-07-20 Tue 10:55>

@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       A1A7AF3F-1662-4697-96B0-347997E0C595
+:END:
 #+HUGO_BASE_DIR: ../
 #+TITLE: The Seven Core Competencies of Business Agility
 #+DATE: <2021-06-01 Tue 23:23>
@@ -5,7 +8,7 @@
 #+HUGO_TAGS: 
 #+HUGO_CATEGORIES: 
 #+HUGO_DRAFT: false
-About [[file:safe.org][SAFe]]
+About [[id:FF3B2CCF-5157-4C73-ADDA-5D387461BDC8][SAFe]]
 * The Seven Core Competencies of Business Agility
 - Team and Technical Agility
 - Agile Product Delivery

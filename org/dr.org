@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       16C3695A-87ED-4E4D-BC20-74328CC66043
+:END:
 #+HUGO_BASE_DIR: ../
 #+TITLE: DR
 #+DATE: <2021-05-15 Sat 17:02>
@@ -67,7 +70,7 @@ Programmer.
 ** The solution should be as clear as possible.
 ** "A picture is worth a thousand words."
 ** Read more
--> [[file:allen-zhang-2019.org][What is good product? - Allen Zhang 2019]]
+-> [[id:EFF71469-8906-4C9C-84D9-FF49EA0179AD][What is good product? - Allen Zhang 2019]]
 * Timeplan/GTD
 Time, Scope and Cost
 * Sprint/Milestone
@@ -122,7 +125,7 @@ Use CI/CD.
 * Change Request
 * Packaging and Release
 - About [[https://note.jsntn.com/deployment.html][The Deployment]]
-- About [[file:semantic-versioning.org][Semantic Versioning]]
+- About [[id:1E1C0FA8-8851-4AE6-B6FE-617CDC825627][Semantic Versioning]]
 * Documents
 * Presentation and Handover
 * Support Phase

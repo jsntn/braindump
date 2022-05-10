@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       3687BC67-1489-477E-AF09-50CC13D7F639
+:END:
 #+HUGO_BASE_DIR: ../
 #+TITLE: Use Org-roam to manage project in an effective way
 #+DATE: <2021-06-11 Fri 14:21>
@@ -11,7 +14,7 @@
 - Permanent Notes
 - Project Notes
 * The Note Type of Your Project
-Compare to the note type of [[file:zettelkasten.org][Zettelkasten]], the note type of our project should be
+Compare to the note type of [[id:7E9E8596-5111-4DA1-962B-B19FDAA09562][Zettelkasten]], the note type of our project should be
 different as project notes/items are normally generated and used as project goes
 by, and the notes can be abandoned/archived once the project is over, at least
 for most of notes/items.

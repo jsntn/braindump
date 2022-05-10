@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       FD68BD29-71CC-41D5-B215-AC55FB14C346
+:END:
 #+HUGO_BASE_DIR: ../
 #+TITLE: Make Git Repository Smaller
 #+DATE: <2021-06-28 Mon 00:17>

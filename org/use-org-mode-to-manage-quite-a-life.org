@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       4BA36DB6-DBFE-4BCA-8170-D80AB469527C
+:END:
 #+HUGO_BASE_DIR: ../
 #+TITLE: Use Org-mode to manage quite a life
 #+DATE: <2021-06-18 Fri 23:05>

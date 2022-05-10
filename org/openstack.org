@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       29C3758F-BA4D-40E4-B7F0-4C51D3FFC830
+:END:
 #+HUGO_BASE_DIR: ../
 #+TITLE: OpenStack
 #+DATE: <2021-05-01 Sat 16:58>
@@ -6,13 +9,13 @@
 #+HUGO_CATEGORIES: 
 #+HUGO_DRAFT: false
 * FAQ
-- [[file:how-to-make-image.org][How to make image?]]
+- [[id:6FB8F918-F7D7-4BCF-8F81-FF21A792B7BA][How to make image?]]
 * TODO
 ** What is the Cloud Image?
 ** Boot an instance from an ISO image
 https://docs.openstack.org/ocata/user-guide/cli-nova-launch-instance-using-ISO-image.html
 * Troubleshooting
-The main troubleshooting method about OpenStack is checking through the [[file:openstack-logs.org][logs]].
+The main troubleshooting method about OpenStack is checking through the [[id:AAF7022E-1458-4C94-8B99-5871D3416FA9][logs]].
 * Network
 ** What is physical network in OpenStack?
 The OpenStack Networking services can either run together on the same physical

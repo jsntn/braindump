@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       28742D49-E129-4089-897C-BDE8717FC5AD
+:END:
 #+HUGO_BASE_DIR: ../
 #+TITLE: Linux
 #+DATE: <2021-05-08 Sat 23:52>
@@ -5,4 +8,4 @@
 #+HUGO_TAGS: 
 #+HUGO_CATEGORIES: 
 #+HUGO_DRAFT: false
-Use [[file:timeshift-on-ubuntu.org][Timeshift]] to manage the snapshot on Ubuntu.
+Use [[id:58021B4E-5A61-4400-A344-C4113E345599][Timeshift]] to manage the snapshot on Ubuntu.

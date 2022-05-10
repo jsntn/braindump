@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       4DE464A2-1A46-4EE2-814D-24B078041DFA
+:END:
 #+HUGO_BASE_DIR: ../
 #+TITLE: Note-taking
 #+DATE: <2021-06-11 Fri 14:12>
@@ -26,8 +29,8 @@
 -> https://www.orgroam.com/manual.html
 
 Read more,
-- [[file:org-roam-and-project.org][Use Org-roam to manage project in an effective way]]
-- [[file:zettelkasten.org][Zettelkasten Note-taking Method]]
+- [[id:3687BC67-1489-477E-AF09-50CC13D7F639][Use Org-roam to manage project in an effective way]]
+- [[id:7E9E8596-5111-4DA1-962B-B19FDAA09562][Zettelkasten Note-taking Method]]
 * Read More
 - [[https://haikebang.org/t/topic/82][How to Take Smart Notes?]]
 * Discuss Community

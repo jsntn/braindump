@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       EFF71469-8906-4C9C-84D9-FF49EA0179AD
+:END:
 #+HUGO_BASE_DIR: ../
 #+TITLE: What is good product? - Allen Zhang 2019
 #+DATE: <2021-07-14 Wed 16:12>

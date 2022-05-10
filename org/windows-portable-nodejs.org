@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       9336F1D5-2311-4413-8410-51A0B4C6168E
+:END:
 #+HUGO_BASE_DIR: ../
 #+TITLE: Portable Node.js Installation on Windows
 #+DATE: <2021-09-23 Thu 21:13>

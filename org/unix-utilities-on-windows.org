@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       EB043842-BECE-4DB2-8F98-A1FF51C6C28D
+:END:
 #+HUGO_BASE_DIR: ../
 #+TITLE: Unix Utilities on Windows
 #+DATE: <2021-06-05 Sat 00:33>
@@ -14,7 +17,7 @@ Install the Unix Utilities, like =make=,
   choco install make
 #+END_SRC
 
-Read more... [[file:make.org][How to use `make`?]]
+Read more... [[id:8AEF627E-F4FF-4B6A-A9F0-E82E0E3E2E9C][How to use `make`?]]
 
 * Recommended Packages
 

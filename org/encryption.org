@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       BE680E68-71BE-47A4-9E27-E1085A7E3769
+:END:
 #+HUGO_BASE_DIR: ../
 #+TITLE: Encryption
 #+DATE: <2021-05-03 Mon 17:24>
@@ -28,7 +31,7 @@ https://cn.apkjam.com/60s/saferoom.html
 * TrueCrypt/VeraCrypt/EDS/CryptoDisk
 - [[https://jsntn.com/software/2014/06/01/truecrypt.html][TrueCrypt is not secure]]
 - [[https://cn.apkjam.com/eds.html][EDS]]
-- [[file:veracrypt-on-macos.org][VeraCrypt on MacOS]]
+- [[id:5CF673B4-C146-4256-A0D6-2AC5ACF3EF14][VeraCrypt on MacOS]]
 - [[https://github.com/jsntn/windows-veracrypt-volume-launcher][Windows VeraCrypt Volume Launcher]]
 * Read More
 https://haikebang.com/secure-portable.html

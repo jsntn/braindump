@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       1BBEE517-B7AC-4EF7-B06E-484703AFB0E1
+:END:
 #+HUGO_BASE_DIR: ../
 #+TITLE: Compile Python Script to Binary Executable
 #+DATE: <2021-06-08 Tue 00:04>

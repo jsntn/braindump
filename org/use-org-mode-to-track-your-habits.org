@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       E8B93A84-42B1-4372-9B73-8A3A814BE94C
+:END:
 #+HUGO_BASE_DIR: ../
 #+TITLE: Use Org-mode to track your habits
 #+DATE: <2021-06-29 Tue 12:49>
