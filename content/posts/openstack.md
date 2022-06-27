@@ -1,15 +1,15 @@
 +++
 title = "OpenStack"
 date = 2021-05-01T16:58:00+08:00
-lastmod = 2022-06-27T17:07:58+08:00
+lastmod = 2022-06-27T21:59:24+08:00
 tags = ["openstack"]
 draft = false
 +++
 
 ## FAQ {#faq}
 
--   [How to make image?](../../org-mode/braindump/how-to-make-image.md)
--   [How to create OpenStack image of running instance?](20220627170712-how_to_create_openstack_image_of_running_instance.md)
+-   [How to make image?]({{< relref "how-to-make-image.md" >}})
+-   [How to create OpenStack image of running instance?]({{< relref "20220627170712-how_to_create_openstack_image_of_running_instance.md" >}})
 
 
 ## TODO {#todo}
@@ -25,7 +25,7 @@ draft = false
 
 ## Troubleshooting {#troubleshooting}
 
-The main troubleshooting method about OpenStack is checking through the [logs](../../org-mode/braindump/openstack-logs.md).
+The main troubleshooting method about OpenStack is checking through the [logs]({{< relref "openstack-logs.md" >}}).
 
 
 ## Network {#network}
