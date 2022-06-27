@@ -10,6 +10,7 @@
 #+HUGO_DRAFT: false
 * FAQ
 - [[id:6FB8F918-F7D7-4BCF-8F81-FF21A792B7BA][How to make image?]]
+- [[id:a561999f-8a25-4512-8839-683d6039c36d][How to create OpenStack image of running instance?]]
 * TODO
 ** What is the Cloud Image?
 ** Boot an instance from an ISO image

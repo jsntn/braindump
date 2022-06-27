@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       a561999f-8a25-4512-8839-683d6039c36d
+:END:
+#+HUGO_BASE_DIR: ../
+#+title: How to create OpenStack image of running instance?
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_TAGS: openstack
+#+HUGO_CATEGORIES: 
+#+HUGO_DRAFT: false
+1. Stop the instance from either the UI or CLI.
+#+BEGIN_SRC sh
+$ openstack server stop [instance UUID]
+#+END_SRC
+
+2. Take a snapshot of the running instance.
+#+BEGIN_SRC sh
+$ openstack server image create --name [snapshot name] [instance UUID]
+#+END_SRC
+
+3. List the images and identify the UUID of the snapshot using the name given during creation.
+#+BEGIN_SRC sh
+$ openstack image list
+#+END_SRC
