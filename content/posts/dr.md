@@ -1,7 +1,7 @@
 +++
 title = "DR"
 date = 2021-05-15T17:02:00+08:00
-lastmod = 2021-07-14T16:16:44+08:00
+lastmod = 2022-08-02T14:56:33+08:00
 draft = false
 +++
 
@@ -82,7 +82,7 @@ Programmer.
 
 ### Read more {#read-more}
 
--> [What is good product? - Allen Zhang 2019]({{< relref "allen-zhang-2019" >}})
+-&gt; [What is good product? - Allen Zhang 2019]({{< relref "allen-zhang-2019.md" >}})
 
 
 ## Timeplan/GTD {#timeplan-gtd}
@@ -129,7 +129,7 @@ Time, Scope and Cost
 -   Developer
 -   Tester
 
--> Who will be responsible for the deliverables packaging? the documents? and
+-&gt; Who will be responsible for the deliverables packaging? the documents? and
    the monitoring?
 
 
@@ -138,7 +138,7 @@ Time, Scope and Cost
 
 #### An effective communication is the precondition to effective co-operation. {#an-effective-communication-is-the-precondition-to-effective-co-operation-dot}
 
--> Is English your official language in your team?
+-&gt; Is English your official language in your team?
 
 
 #### Role and Responsibility {#role-and-responsibility}
@@ -184,10 +184,14 @@ Use CI/CD.
 ## Packaging and Release {#packaging-and-release}
 
 -   About [The Deployment](https://note.jsntn.com/deployment.html)
--   About [Semantic Versioning]({{< relref "semantic-versioning" >}})
+-   About [Semantic Versioning]({{< relref "semantic-versioning.md" >}})
 
 
 ## Documents {#documents}
+
+The documents are important deliverables.
+
+The Markdown/Org can be helpful on the uniform format and style.
 
 
 ## Presentation and Handover {#presentation-and-handover}

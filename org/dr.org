@@ -127,6 +127,9 @@ Use CI/CD.
 - About [[https://note.jsntn.com/deployment.html][The Deployment]]
 - About [[id:1E1C0FA8-8851-4AE6-B6FE-617CDC825627][Semantic Versioning]]
 * Documents
+The documents are important deliverables.
+
+The Markdown/Org can be helpful on the uniform format and style.
 * Presentation and Handover
 * Support Phase
 -----
