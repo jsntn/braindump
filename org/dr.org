@@ -2,6 +2,7 @@
 :ID:       16C3695A-87ED-4E4D-BC20-74328CC66043
 :END:
 #+HUGO_BASE_DIR: ../
+#+OPTIONS: toc:1
 #+TITLE: DR
 #+DATE: <2021-05-15 Sat 17:02>
 #+HUGO_AUTO_SET_LASTMOD: t
@@ -134,3 +135,8 @@ The Markdown/Org can be helpful on the uniform format and style.
 * Support Phase
 -----
 @@html:<span># EOF: You've come a long way.</span>@@
+
+* COMMENT Local Variables            :ARCHIVE:
+# Local Variables:
+# eval: (org-hugo-auto-export-mode -1)
+# End:

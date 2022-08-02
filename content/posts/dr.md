@@ -1,9 +1,37 @@
 +++
 title = "DR"
 date = 2021-05-15T17:02:00+08:00
-lastmod = 2022-08-02T14:56:33+08:00
+lastmod = 2022-08-02T16:58:38+08:00
 draft = false
 +++
+
+<div class="ox-hugo-toc toc">
+
+<div class="heading">Table of Contents</div>
+
+- [Introduction](#introduction)
+- [Solution Requirements/Design/Describe the Design](#solution-requirements-design-describe-the-design)
+- [Timeplan/GTD](#timeplan-gtd)
+- [Sprint/Milestone](#sprint-milestone)
+- [Roadmap](#roadmap)
+- [Risk Analysis](#risk-analysis)
+- [User Story](#user-story)
+- [Bash OR Python](#bash-or-python)
+- [Team](#team)
+- [Tools](#tools)
+- [Editor OR IDE](#editor-or-ide)
+- [Start Coding](#start-coding)
+- [Testing](#testing)
+- [Change Request](#change-request)
+- [Packaging and Release](#packaging-and-release)
+- [Documents](#documents)
+- [Presentation and Handover](#presentation-and-handover)
+- [Support Phase](#support-phase)
+
+</div>
+<!--endtoc-->
+
+
 
 ## Introduction {#introduction}
 
