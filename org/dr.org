@@ -136,7 +136,3 @@ The Markdown/Org can be helpful on the uniform format and style.
 -----
 @@html:<span># EOF: You've come a long way.</span>@@
 
-* COMMENT Local Variables            :ARCHIVE:
-# Local Variables:
-# eval: (org-hugo-auto-export-mode -1)
-# End:
